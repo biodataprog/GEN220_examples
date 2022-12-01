@@ -1,0 +1,61 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             MET12.fa
+# target HMM database:             /srv/projects/db/pfam/2021-11-25-Pfam35.0/Pfam-A.hmm
+# per-dom hits tabular output:     MET12.domtbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       YPL023C  [L=657]
+Description: MET12 
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   6.7e-117  390.0   0.0   8.9e-117  389.6   0.0    1.1  1  MTHFR     Methylenetetrahydrofolate reductase
+
+
+Domain annotation for each model (and alignments):
+>> MTHFR  Methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  389.6   0.0  4.5e-121  8.9e-117       8     286 ..      10     301 ..       3     302 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 389.6 bits;  conditional E-value: 4.5e-121
+              CSS-EEEEEE---SSHHHHHHHHHHHHHHGCGG-SEEEE---GGGSTHHHHHHHHHHHHHHH-S-EEEEEECTTS-HHHHHHHHHHHHHTT--EEEEEE-S. CS
+    MTHFR   8 egkalisfEffpPkteegernLleridrleevkplfvdvTwgaggstaeltssiakviqqelgleailhlTctdaskeeldkalekakelGirnilALrGDp 109
+              +++++is+EffpPkte g+rnL+er++r++++ plf++vTwgagg+tae+t+++a+ +qq+l++++++hlTct+++k+ +d+al++++++GirnilALrGDp
+  YPL023C  10 RASPFISLEFFPPKTELGTRNLMERMHRMTALDPLFITVTWGAGGTTAEKTLTLASLAQQTLNIPVCMHLTCTNTEKAIIDDALDRCYNAGIRNILALRGDP 111
+              5789************************************************************************************************** PP
+
+              -TT-GGC---S--..--SHHHHHHHHHHHHCCCSEEEEEE-TT--T......T-S-HHHHHHHHHHHHHCT--EEEEEE-SSHHHHHHHHHHHHHHT-.SS- CS
+    MTHFR 110 pkdedkweekeee..fkyaldLvrlireeygdlfdigvaaYPevhp......eaksleadlkylkeKvdaGAdfiitQlffdvdkflkfveqvreagi.dip 202
+              p +ed+++++++e  fkya+dLvr+i+++ygd+f++gvaaYPe+h+      +++++ +dl ylkeKv+aGAdf+itQlf+dv+kfl+f++ +re+++ d+p
+  YPL023C 112 PIGEDWLDSQSNEspFKYAVDLVRYIKQSYGDKFCVGVAAYPEGHCegeaegHEQDPLKDLVYLKEKVEAGADFVITQLFYDVEKFLTFEMLFRERISqDLP 213
+              *****9888887788***********************************999*****************************************998879** PP
+
+              EEEEE---SSHHHHHHHHHHHTS---HHHHHHCC.CCTT-HHHHHHHHHHHHHHHHHHHHHCT...--EEEEE-TT--HHHHHHHHHC CS
+    MTHFR 203 iipgimpiksykslkrlaklskvkiPqelldrle.eikdddeavkkigielavemvkkllaeg...vkglHlytlnkekaileileql 286
+              ++pg+mpi+sy  ++r+akls+++iP ++l+r+  ei++dd+avk+ig+++ +e+++++++++   +kg+H+ytln+ekai++i++q+
+  YPL023C 214 LFPGLMPINSYLLFHRAAKLSHASIPPAILSRFPpEIQSDDNAVKSIGVDILIELIQEIYQRTsgrIKGFHFYTLNLEKAIAQIVSQS 301
+              *********************************978*************************9889********************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (657 residues searched)
+Target model(s):                       19632  (3329936 nodes)
+Passed MSV filter:                       516  (0.0262836); expected 392.6 (0.02)
+Passed bias filter:                      500  (0.0254686); expected 392.6 (0.02)
+Passed Vit filter:                        35  (0.0017828); expected 19.6 (0.001)
+Passed Fwd filter:                         1  (5.09372e-05); expected 0.2 (1e-05)
+Initial search space (Z):              19632  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.62u 0.50s 00:00:01.12 Elapsed: 00:00:00.74
+# Mc/sec: 2918.05
+//
+[ok]

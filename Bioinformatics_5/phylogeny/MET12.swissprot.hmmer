@@ -1,0 +1,1166 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  MET12.hmm
+# target sequence database:        /srv/projects/db/NCBI/swissprot/swissprot
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       MET12.hit_seqs  [M=613]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                             -----------
+   7.2e-299  996.9   0.0   8.1e-299  996.8   0.0    1.0  1  gi|116242663|sp|P53128.2|MTHR2_YEAST  RecName: Full=Methylenetetrahydr
+   4.6e-292  974.5   0.0   5.4e-292  974.2   0.0    1.0  1  gi|1709159|sp|P46151.2|MTHR1_YEAST    RecName: Full=Methylenetetrahydr
+     2e-232  777.5   0.2   5.6e-232  776.0   0.2    1.6  1  gi|1723442|sp|Q10258.1|MTHR1_SCHPO    RecName: Full=Methylenetetrahydr
+   3.1e-217  727.3   0.0   3.7e-217  727.1   0.0    1.0  1  gi|19855065|sp|O74927.2|MTHR2_SCHPO   RecName: Full=Methylenetetrahydr
+     1e-200  672.8   0.1   2.5e-200  671.5   0.1    1.5  1  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ    RecName: Full=Probable methylene
+   3.8e-199  667.6   0.0   6.8e-199  666.7   0.0    1.3  1  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE   RecName: Full=Methylenetetrahydr
+   5.1e-197  660.5   1.3   1.3e-196  659.2   1.3    1.6  1  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH   RecName: Full=Methylenetetrahydr
+   2.3e-196  658.4   0.5   5.7e-196  657.1   0.5    1.5  1  gi|22096355|sp|O80585.2|MTHR2_ARATH   RecName: Full=Methylenetetrahydr
+   1.6e-184  619.3   0.0   5.4e-184  617.5   0.0    1.6  1  gi|56405339|sp|P42898.3|MTHR_HUMAN    RecName: Full=Methylenetetrahydr
+   1.4e-183  616.2   0.0   5.1e-183  614.3   0.0    1.7  1  gi|75061139|sp|Q5I598.1|MTHR_BOVIN    RecName: Full=Methylenetetrahydr
+   8.9e-183  613.5   0.0     3e-182  611.8   0.0    1.6  1  gi|62287023|sp|Q60HE5.1|MTHR_MACFA    RecName: Full=Methylenetetrahydr
+     4e-181  608.0   0.0   1.2e-180  606.4   0.0    1.6  1  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE   RecName: Full=Methylenetetrahydr
+   2.2e-162  546.1   0.0   2.3e-161  542.8   0.0    1.9  1  gi|21542426|sp|Q17693.2|MTHR_CAEEL    RecName: Full=Probable methylene
+    4.7e-83  284.1   0.0    5.9e-83  283.8   0.0    1.0  1  gi|6016544|sp|O67422.1|METF_AQUAE     RecName: Full=5,10-methylenetetr
+    5.1e-61  211.3   0.0    6.7e-61  211.0   0.0    1.0  1  gi|6016546|sp|O54235.1|METF_STRLI     RecName: Full=5,10-methylenetetr
+    4.4e-57  198.3   0.0    5.5e-57  198.0   0.0    1.0  1  gi|6016545|sp|P71319.1|METF_PECCC     RecName: Full=5,10-methylenetetr
+    1.3e-55  193.5   0.0    1.5e-55  193.2   0.0    1.0  1  gi|84028093|sp|P0AEZ1.1|METF_ECOLI    RecName: Full=5,10-methylenetetr
+    2.1e-55  192.8   0.0    2.5e-55  192.5   0.0    1.0  1  gi|81784704|sp|Q9JZQ3.1|METF_NEIMB    RecName: Full=5,10-methylenetetr
+    2.2e-54  189.4   0.0    2.6e-54  189.2   0.0    1.0  1  gi|20141497|sp|P11003.2|METF_SALTY    RecName: Full=5,10-methylenetetr
+    4.7e-54  188.3   0.9    5.4e-54  188.1   0.9    1.0  1  gi|11133458|sp|P57154.1|METF_BUCAI    RecName: Full=5,10-methylenetetr
+    2.2e-53  186.1   0.0    2.8e-53  185.8   0.0    1.0  1  gi|1170934|sp|P45208.1|METF_HAEIN     RecName: Full=5,10-methylenetetr
+    7.9e-52  181.0   0.8    9.3e-52  180.8   0.8    1.0  1  gi|38258065|sp|Q89B13.1|METF_BUCBP    RecName: Full=5,10-methylenetetr
+      1e-50  177.4   0.7    1.3e-50  177.0   0.7    1.0  1  gi|25008738|sp|Q8KA62.1|METF_BUCAP    RecName: Full=5,10-methylenetetr
+    1.5e-09   41.3   0.0    2.3e-09   40.7   0.0    1.1  1  gi|81668783|sp|O06745.1|YITJ_BACSU    RecName: Full=Bifunctional homoc
+  ------ inclusion threshold ------
+       0.35   13.7   0.4       0.41   13.5   0.4    1.1  1  gi|62901003|sp|Q7NBY7.1|RUVX_MYCGA    RecName: Full=Putative Holliday 
+       0.47   13.3   0.5       0.45   13.4   0.5    1.0  1  gi|123493531|sp|Q2GH48.1|RL29_EHRCR   RecName: Full=50S ribosomal prot
+       0.64   12.9   0.2       0.95   12.3   0.2    1.4  1  gi|74582952|sp|O94627.1|RNH2B_SCHPO   RecName: Full=Ribonuclease H2 su
+       0.76   12.6   0.0       0.85   12.4   0.0    1.1  1  gi|125947|sp|P01846.1|LAC_PIG         RecName: Full=Ig lambda chain C 
+       0.86   12.4   0.0       0.98   12.2   0.0    1.0  1  gi|61228153|sp|P0A5K2.1|MMPS4_MYCTU   RecName: Full=Putative membrane 
+       0.98   12.2   0.0        1.2   11.9   0.0    1.0  1  gi|123944|sp|P15814.1|IGLL1_HUMAN     RecName: Full=Immunoglobulin lam
+       0.99   12.2   0.3       0.93   12.3   0.3    1.0  1  gi|2496097|sp|Q58064.1|PFDA2_METJA    RecName: Full=Prefoldin subunit 
+        1.4   11.7   0.2        1.3   11.8   0.2    1.0  1  gi|123614828|sp|Q3YRL7.1|RL29_EHRCJ   RecName: Full=50S ribosomal prot
+        2.9   10.7   0.0        4.2   10.1   0.0    1.1  1  gi|123378531|sp|Q1GBV3.1|GUAC_LACDA   RecName: Full=GMP reductase; Alt
+        2.9   10.7   0.0        4.2   10.1   0.0    1.1  1  gi|122275786|sp|Q04CB0.1|GUAC_LACDB   RecName: Full=GMP reductase; Alt
+
+
+Domain annotation for each sequence (and alignments):
+>> gi|116242663|sp|P53128.2|MTHR2_YEAST  RecName: Full=Methylenetetrahydrofolate reductase 2; AltName: Full=YmL45
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  996.8   0.0  6.1e-303  8.1e-299       1     611 [.       1     598 [.       1     600 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 996.8 bits;  conditional E-value: 6.1e-303
+                        MET12.hit_seqs   1 mkisekleaalkad.ekffsleffvPkteqGvrnlldrldrmaa.lkPlfiditWgaGG.rtseksldlvata 70 
+                                           mki+ekle++++++ ++++s+e+fvPkt+qGv+nl+dr+drm++ + P+fiditW+aGG r+s++s+dlvata
+  gi|116242663|sp|P53128.2|MTHR2_YEAST   1 MKITEKLEQHRQTSgKPTYSFEYFVPKTTQGVQNLYDRMDRMYEaSLPQFIDITWNAGGgRLSHLSTDLVATA 73 
+                                           9*************9****************************9789**********987************* PP
+
+                        MET12.hit_seqs  71 qstlgletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekyg 143
+                                           qs+lgletc+hltctnm++++iddale+a+++G+qnilalrGdPP+d+e+w+p+eg+f+yakdl+kyik+kyg
+  gi|116242663|sp|P53128.2|MTHR2_YEAST  74 QSVLGLETCMHLTCTNMPISMIDDALENAYHSGCQNILALRGDPPRDAENWTPVEGGFQYAKDLIKYIKSKYG 146
+                                           ************************************************************************* PP
+
+                        MET12.hit_seqs 144 dkfaiGvaayPeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiP 216
+                                           d+faiGva+yPe+h+e +   ++dvk dleylk+k+daG+dfiitq+fydvd+f+++++++r++ g+d+piiP
+  gi|116242663|sp|P53128.2|MTHR2_YEAST 147 DHFAIGVAGYPECHPELP---NKDVKLDLEYLKQKIDAGGDFIITQMFYDVDNFINWCSQVRAA-GMDVPIIP 215
+                                           ******************...9******************************************.******** PP
+
+                        MET12.hit_seqs 217 GlmPistyaaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlek 289
+                                           G+mPi+tyaaflr+a++++isiPq++++rldp+kddde+v+++G++l++e++qklldsg+v++lh+yt+nlek
+  gi|116242663|sp|P53128.2|MTHR2_YEAST 216 GIMPITTYAAFLRRAQWGQISIPQHFSSRLDPIKDDDELVRDIGTNLIVEMCQKLLDSGYVSHLHIYTMNLEK 288
+                                           ************************************************************************* PP
+
+                        MET12.hit_seqs 290 avvkilerlnlleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksav 362
+                                           a ++ilerln+l +ese+++++      + lP+rksl+++rk              +e+v++i++k+r++s+v
+  gi|116242663|sp|P53128.2|MTHR2_YEAST 289 APLMILERLNILPTESEFNAHP-----LAVLPWRKSLNPKRK--------------NEEVRPIFWKRRPYSYV 342
+                                           *********************9.....9**************..............99*************** PP
+
+                        MET12.hit_seqs 363 ardatW..defPnGrfGdsrsPafGeidgygssl.rqspakalelWglPksiadlkkllinyleGklkvlPWs 432
+                                           ar+++W  defPnGrfGds+sPafG++d++gs+l rqs++k+lelW++P+si+d++ l+inyl+G+lk+lPWs
+  gi|116242663|sp|P53128.2|MTHR2_YEAST 343 ARTSQWavDEFPNGRFGDSSSPAFGDLDLCGSDLiRQSANKCLELWSTPTSINDVAFLVINYLNGNLKCLPWS 415
+                                           *********************************99************************************** PP
+
+                        MET12.hit_seqs 433 dlplsdetalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkl 505
+                                           d+p++de++ ik++l+elnq++i+t++sqP+vn+++s+dki+GWGPk+Gyvyqk++le++++k+kl kl+++l
+  gi|116242663|sp|P53128.2|MTHR2_YEAST 416 DIPINDEINPIKAHLIELNQHSIITINSQPQVNGIRSNDKIHGWGPKDGYVYQKQYLEFMLPKTKLPKLIDTL 488
+                                           ************************************************************************* PP
+
+                        MET12.hit_seqs 506 eeqekvsyyavdkdgeletnlke.kssnavtWGvfPgkevvqptivekesfkaWkeeafsllseWaklykkn. 576
+                                           +++e+++y+a+d++g+l +n+++ ++snavtWG+fPg+e++qptivek+sf+aWkee++++l+eW+ +++k+ 
+  gi|116242663|sp|P53128.2|MTHR2_YEAST 489 KNNEFLTYFAIDSQGDLLSNHPDnSKSNAVTWGIFPGREILQPTIVEKISFLAWKEEFYHILNEWKLNMNKYd 561
+                                           *********************996889*******************************************985 PP
+
+                        MET12.hit_seqs 577 .sesakllkkiideyvlvsivhndfveede.lfdlll 611
+                                            ++sa++++++id+y+lv+iv+nd+++ d+ ++++ll
+  gi|116242663|sp|P53128.2|MTHR2_YEAST 562 kPHSAQFIQSLIDDYCLVNIVDNDYISPDDqIHSILL 598
+                                           569************************9988**9997 PP
+
+>> gi|1709159|sp|P46151.2|MTHR1_YEAST  RecName: Full=Methylenetetrahydrofolate reductase 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  974.2   0.0    4e-296  5.4e-292       1     612 [.       1     655 [.       1     656 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 974.2 bits;  conditional E-value: 4e-296
+                      MET12.hit_seqs   1 mkisekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlg 75 
+                                         m+i++ ++a+   +++f+sleff+Pkte G+rnl++r++rm+al+Plfi++tWgaGG+t+ek+l+l++ aq+tl+
+  gi|1709159|sp|P46151.2|MTHR1_YEAST   1 MSIRDLYHAR---ASPFISLEFFPPKTELGTRNLMERMHRMTALDPLFITVTWGAGGTTAEKTLTLASLAQQTLN 72 
+                                         6777777666...89************************************************************ PP
+
+                      MET12.hit_seqs  76 letclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwe..paegdfkyakdlvkyikekygdkfai 148
+                                         +++c+hltctn+ek++iddal+++++aGi+nilalrGdPP++e++++  ++e++fkya+dlv+yik++ygdkf++
+  gi|1709159|sp|P46151.2|MTHR1_YEAST  73 IPVCMHLTCTNTEKAIIDDALDRCYNAGIRNILALRGDPPIGEDWLDsqSNESPFKYAVDLVRYIKQSYGDKFCV 147
+                                         *********************************************98667899********************** PP
+
+                      MET12.hit_seqs 149 GvaayPeghveeed.aseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPis 222
+                                         GvaayPegh+e+e+ ++eqd+ kdl ylkekv+aGadf+itqlfydv+kfl+fe+++re++++d+p++PGlmPi+
+  gi|1709159|sp|P46151.2|MTHR1_YEAST 148 GVAAYPEGHCEGEAeGHEQDPLKDLVYLKEKVEAGADFVITQLFYDVEKFLTFEMLFRERISQDLPLFPGLMPIN 222
+                                         ***********99879*********************************************************** PP
+
+                      MET12.hit_seqs 223 tyaaflraaklseisiPqeildrldp.vkdddeavkelGvelvseliqklld..sgkvkglhfytlnlekavvki 294
+                                         +y +f+raakls++siP++il+r++p +++dd+avk++Gv++++eliq++++  sg++kg+hfytlnleka+++i
+  gi|1709159|sp|P46151.2|MTHR1_YEAST 223 SYLLFHRAAKLSHASIPPAILSRFPPeIQSDDNAVKSIGVDILIELIQEIYQrtSGRIKGFHFYTLNLEKAIAQI 297
+                                         ************************999************************999********************* PP
+
+                      MET12.hit_seqs 295 lerlnlleqeseessee.....asgst..aeelPer................kslkrrrkssldsnklvsdka.. 344
+                                         ++++++l+++++essee     +sg++  +e++P++                 ++krrr+sslds+kl++++a  
+  gi|1709159|sp|P46151.2|MTHR1_YEAST 298 VSQSPVLSHIVNESSEEegedeTSGEIgsIENVPIEdadgdivlddsneetvANRKRRRHSSLDSAKLIFNRAiv 372
+                                         ************9999989988888888899****9888888887777666669********************* PP
+
+                      MET12.hit_seqs 345 ............eeedvkvilaksrkksavardatWdefPnGrfGdsrsPafGeidgygsslrqspakalelWgl 407
+                                                     +++++k+++++s+++++++rdatWdefPnGrfGdsrsPa+Geidgyg+s+++s++kalelWg+
+  gi|1709159|sp|P46151.2|MTHR1_YEAST 373 tekglrynnengSMPSKKALISISKGHGTLGRDATWDEFPNGRFGDSRSPAYGEIDGYGPSIKVSKSKALELWGI 447
+                                         ***********99************************************************************** PP
+
+                      MET12.hit_seqs 408 PksiadlkkllinyleGklkvlPWsdlplsdetalikeellelnqkgiltvasqPavnavkssdkifGWGPknGy 482
+                                         Pk+i+dlk+++i+yleG+++++PWsdl+ls+etali+eel++ln++g+lt+asqPa+na+ ssdkifGWGP++G+
+  gi|1709159|sp|P46151.2|MTHR1_YEAST 448 PKTIGDLKDIFIKYLEGSTDAIPWSDLGLSAETALIQEELIQLNYRGYLTLASQPATNATLSSDKIFGWGPAKGR 522
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 483 vyqkaflelliskeklek.llkklee..qekvsyyavdkdgeletnlkekssnavtWGvfPgkevvqptivekes 554
+                                         +yqkaf+e++i+++++e+ l++kl++  ++k+syya+d++g++etnl+ +ss++vtWGvfP+++v+q+ti+e+es
+  gi|1709159|sp|P46151.2|MTHR1_YEAST 523 LYQKAFVEMFIHRQQWETtLKPKLDHygRRKFSYYAGDSSGSFETNLDPHSSSVVTWGVFPNSPVKQTTIIEEES 597
+                                         ****************988*******9899********************************************* PP
+
+                      MET12.hit_seqs 555 fkaWkeeafsllseWaklykknsesakllkkiideyvlvsivhndfveedelfdllld 612
+                                         fkaW++eafs++seWakl+++n+ ++ ll+ ++++y+lvsivh+df+e+del+++lld
+  gi|1709159|sp|P46151.2|MTHR1_YEAST 598 FKAWRDEAFSIWSEWAKLFPRNTPANILLRLVHKDYCLVSIVHHDFKETDELWEMLLD 655
+                                         *******************************************************986 PP
+
+>> gi|1723442|sp|Q10258.1|MTHR1_SCHPO  RecName: Full=Methylenetetrahydrofolate reductase 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  776.0   0.2  4.2e-236  5.6e-232       1     611 [.       1     585 [.       1     587 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 776.0 bits;  conditional E-value: 4.2e-236
+                      MET12.hit_seqs   1 mkisekleaalkadekffsleffvPkteqGvrnlldrldrmaa.lkPlfiditWgaGGrtseksldlvataqstl 74 
+                                         mkis+kl +    ++ ++s+eff+Pkt++Gv+nl++r+drm+   +P+f+d+tWgaGG++se++  +v   q  +
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO   1 MKISDKLLHPDWKEKVTYSYEFFPPKTSTGVQNLYNRIDRMKTwGRPMFVDVTWGAGGTSSELTPGIVNVIQTDF 75 
+                                         999***99999999***************************99668***************************** PP
+
+                      MET12.hit_seqs  75 gletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiG 149
+                                         +++tc+hltctnm++e+id al++a+++G++nilalrGdP +d + w+  e++f+ya dlv+yi+ +y+d+f+iG
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO  76 EVDTCMHLTCTNMSTEMIDAALKRAHETGCRNILALRGDPVKDTD-WTEGESGFRYASDLVRYIRTHYNDEFCIG 149
+                                         ***************************************988776.5777************************* PP
+
+                      MET12.hit_seqs 150 vaayPeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPisty 224
+                                         va+yPeg   ++     d ++ +++lk kvd Gadfi+tq+fydvd+f+++++k+r++ g++ipi+PG+mPi+++
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO 150 VAGYPEGYSPDD-----DIDESIKHLKLKVDEGADFIVTQMFYDVDNFIAWVDKVRAA-GINIPIFPGIMPIQAW 218
+                                         *******99888.....9****************************************.**************** PP
+
+                      MET12.hit_seqs 225 aaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkilerln 299
+                                          +f+r+ak+s ++iPq+++d l pvkddde v+e+Gvel++e++ kl  sg +  lhfyt+nlekav +i+erl 
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO 219 DSFIRRAKWSGVKIPQHFMDTLVPVKDDDEGVRERGVELIVEMCRKLIASG-ITRLHFYTMNLEKAVKMIIERLG 292
+                                         ************************************************998.789******************** PP
+
+                      MET12.hit_seqs 300 lleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavardatWdefPnG 374
+                                         ll+++ +  + +    ++ el ++ s +              d++ +e v++i++++r++s+v+r+ +Wde+P G
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO 293 LLDENLAPIVDT----NNVEL-TNASSQ--------------DRRINEGVRPIFWRTRNESYVSRTDQWDELPHG 348
+                                         **9888743333....11122.222333..............444699*************************** PP
+
+                      MET12.hit_seqs 375 rfGdsrsPafGeidgygsslrqspakalelWglPksiadlkkllinyleGklkvlPWsdlplsdetalikeelle 449
+                                         r+GdsrsPafGe d++   lr sp+++ + Wg Pks +++ +l++ y e k+++lPWsdlp+sde  li+++ll 
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO 349 RWGDSRSPAFGEFDAIRYGLRMSPKEITTSWGSPKSYSEIGDLFARYCEKKISSLPWSDLPISDEADLIRDQLLS 423
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 450 lnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqekvsyyavdkdgelet 524
+                                         +n++++lt++sqPa+n+ kss+ +fGWGP nGyv+qk ++e+++++  l++l++++++ + vsy++++k+g+l+t
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO 424 MNRNAFLTINSQPALNGEKSSHPVFGWGPPNGYVFQKPYVEFFVHPSLLNELKETVKKLNSVSYFVTNKNGDLDT 498
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 525 nlkekssnavtWGvfPgkevvqptivekesfkaWkeeafsllseWaklykknsesakllkkiideyvlvsivhnd 599
+                                         n + +  navtWGvfP++e++qptive +sf+aWk+ea+sl  eWa+ y+ +s s+kll ++++e++l+ iv+nd
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO 499 NSQYEIPNAVTWGVFPNREIIQPTIVESTSFLAWKDEAYSLGMEWANAYSPDSISRKLLVSMMKEWFLCVIVDND 573
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 600 fveedelfdlll 611
+                                         f++ ++lfd+++
+  gi|1723442|sp|Q10258.1|MTHR1_SCHPO 574 FQNGQSLFDVFN 585
+                                         *********986 PP
+
+>> gi|19855065|sp|O74927.2|MTHR2_SCHPO  RecName: Full=Methylenetetrahydrofolate reductase 2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  727.1   0.0  2.7e-221  3.7e-217       1     611 [.       1     638 [.       1     640 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 727.1 bits;  conditional E-value: 2.7e-221
+                       MET12.hit_seqs   1 mkisekleaalkadekffsleffvPkteqGvrnlldrldrmaa.lkPlfiditWgaGGrtseksldlvataqst 73 
+                                          mki++ + +   + ++f+s+e+f+Pkt+ G++nl  r+ rm+  + Plf  +tWg+ G+t+e s  l+++  + 
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO   1 MKIVDLIDKI-PNGNAFYSFEYFPPKTTVGLENLSSRITRMSRnMMPLFSSVTWGTAGSTAEVSIYLAKMLEQH 73 
+                                          5666555444.44589*************************9779***************************** PP
+
+                       MET12.hit_seqs  74 lgletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfa 147
+                                            +++clhltctn++k++id+ale+a++ Gi+nilalrGdPPl++++we + ++f++a+dlv+yi+ekygd+f+
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO  74 HKIPACLHLTCTNVDKAIIDKALETAKEYGIRNILALRGDPPLNSDHWEGKVSEFEHAVDLVRYIREKYGDYFC 147
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 148 iGvaayPeghveeed.aseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklrek...lgkdipiiPG 217
+                                          iGvaayPeghv+ +    ++d+ +d+++l ekv+aGadfiitq+fy+ + f++fe+ +r++    + +ipiiP 
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO 148 IGVAAYPEGHVDSNVpELSKDPLRDIPFLIEKVEAGADFIITQIFYEPEAFIKFENFVRNHssnALRNIPIIPA 221
+                                          ************9986789****************************************99766789******* PP
+
+                       MET12.hit_seqs 218 lmPistyaaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklld..sgkvkglhfytlnlek 289
+                                          +mPi++y ++ r ++l+  s+P ++++rl++ k ddea+k++Gve ++++i+k++d  +g+v+g+hf tlnle+
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO 222 IMPIQSYGSLKRMTRLCGCSVPSSLMQRLNAAKPDDEAIKNIGVEHIVDMIKKIMDnvQGRVHGFHFCTLNLER 295
+                                          *******************************************************97889************** PP
+
+                       MET12.hit_seqs 290 avvkilerlnlleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdka................... 344
+                                          +v+ il+++ ll++  ++  +e   ++     +rk l+    + l+++ +v +++                   
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO 296 SVALILKNSGLLTKRWKQVESEMEDEKL-LRTTRKRLSLDEPAELHNQVVVPSQQpvadkssnlfvtskqssvs 368
+                                          ************9887644444233332.222223333333333333333333333444445555555567887 PP
+
+                       MET12.hit_seqs 345 ...eeedvkvilaksrkksavardatWdefPnGrfGdsrsPafGeidgygsslrqspakalelWglPksiadlk 415
+                                             ++ + ++ ++ s+++++++r+a+Wd+f nGrfGd rsPa+Geidgyg++l+ +p++al+lWg+P + +d++
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO 369 ghkDNLTEEAPFSVSEGSGVLGRQANWDDFTNGRFGDPRSPAYGEIDGYGPTLHFPPSEALKLWGYPVDESDIT 442
+                                          75444455688*************************************************************** PP
+
+                       MET12.hit_seqs 416 kllinyleGklkvlPWsdlplsdetalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkafl 489
+                                          +l+ + +  +++++PW d p++ et++i + ll+ln ++++tv sqPavn++ s d +fGWGPk G+v+qkaf+
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO 443 SLFQKHIMSDISAIPWIDEPVEVETKTIAKYLLKLNGNSWWTVGSQPAVNGAPSADPVFGWGPKGGRVFQKAFV 516
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 490 elliskeklekllkkleeqekvsyyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeaf 563
+                                          e +++ ++l+ +++k +++ +v+yya++++ e+ tn++++  +avtWGv+Pg+e++q+ti+ + sfkaW  e f
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO 517 ECFVNGKDLKDFITKWHDNPQVTYYAGNNKSEFLTNAPKDGASAVTWGVYPGREIIQSTIIAEVSFKAWLSESF 590
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 564 sllseWaklykknsesakllkkiideyvlvsivhndfveedelfdlll 611
+                                          +++ eWa+ly+kn+ s+kll++ i++  lv+++h+df+++++l+++l+
+  gi|19855065|sp|O74927.2|MTHR2_SCHPO 591 QVWGEWANLYSKNTPSRKLLENCINDRWLVTVIHHDFMDKNGLWKVLE 638
+                                          *********************************************985 PP
+
+>> gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ  RecName: Full=Probable methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  671.5   0.1  1.9e-204  2.5e-200       1     604 [.       1     586 [.       1     593 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 671.5 bits;  conditional E-value: 1.9e-204
+                      MET12.hit_seqs   1 mkisekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlg 75 
+                                         mk++ek+++a +  +++fs+e+f+Pkte+G+ nl++r+drm a  P f ditWgaGG+t++++l+++   q+++ 
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ   1 MKVIEKIQEAAADGRTVFSFEYFPPKTEEGLDNLFERMDRMVAHGPNFCDITWGAGGSTADLTLEIANRMQNMVC 75 
+                                         89999999997777************************************************************* PP
+
+                      MET12.hit_seqs  76 letclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGv 150
+                                         +et++hltctnm++e iddal + ++ Giqn+lalrGdPP +++k+  + g+f  a dlv++i+ kygd+f i v
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ  76 VETMMHLTCTNMPVEKIDDALTTIKSNGIQNVLALRGDPPHGQDKFVQVAGGFACALDLVQHIRAKYGDYFGITV 150
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 151 aayPeghveeed....aseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPi 221
+                                         a+yPe+h++  +    a+ +  ++dl ylk+kvdaGad+iitqlfyd+d fl+f++ +r++ g+  pi+PG+mPi
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ 151 AGYPEAHPDAIQstegATPEAYSNDLAYLKQKVDAGADLIITQLFYDTDIFLKFVNDCRQI-GITCPIVPGIMPI 224
+                                         ********9765212244567889************************************9.************* PP
+
+                      MET12.hit_seqs 222 styaaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkile 296
+                                         + y+ flr + +++ +iP ei  +l+p+kd++eavk+ G++l +e+++k+l +g +k lh+ytln+ek+ + il 
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ 225 NNYKGFLRMTGFCKTKIPAEITAALEPIKDNEEAVKAYGIHLGTEMCKKILATG-IKTLHLYTLNMEKSALGILM 298
+                                         **************************************************9765.9******************* PP
+
+                      MET12.hit_seqs 297 rlnlleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavardatWdef 371
+                                         +l l+e+ +             +lP+r  ++  r               +edv++i++ +r+ks+++r+  Wd++
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ 299 NLGLIEESKI----------SRSLPWRPPTNVFRV--------------KEDVRPIFWANRPKSYISRTLGWDQY 349
+                                         ***9976554..........5689***99999999..............9************************* PP
+
+                      MET12.hit_seqs 372 PnGrfGdsrsPafGeidgygssl.rqspakalelWglP.ksiadlkkllinyleGklkvlPWsdl.plsdetali 443
+                                         P Gr+Gdsr P++G +  y  +  r   +k  e W++P ks++d+++ ++n+ +Gkl++ PWs+l +l++et++i
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ 350 PHGRWGDSRNPSYGALTDYQFTRpRGRGKKLQEEWAVPvKSVEDINERFMNFCQGKLTSSPWSELdGLQPETKII 424
+                                         ********************999899999*********668**********************9747******** PP
+
+                      MET12.hit_seqs 444 keellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqekvsyyavdk 518
+                                          ++l+++nqkg+lt++sqPavn+ +s+    GWG   Gyvyqka+le+++skekl++l++k ++   ++y av+k
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ 425 DDQLVKINQKGFLTINSQPAVNGERSDSTSVGWGGPGGYVYQKAYLEFFCSKEKLDQLIEKSKAFPSLTYIAVNK 499
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 519 dgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafsllse.Waklykknsesakllkkiideyvl 592
+                                         dge  +n+++++ navtWGvfPgke+vqpt+v+  sf  Wk+eaf+++s  Wa l+++  +s+++l+k+ + y+l
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ 500 DGESFSNIPTNAVNAVTWGVFPGKEIVQPTVVDSASFMVWKDEAFEIWSKgWACLFPEGDSSREILDKVQKSYFL 574
+                                         ************************************************865************************ PP
+
+                      MET12.hit_seqs 593 vsivhndfveed 604
+                                         vs+v+nd+++ d
+  gi|75294984|sp|Q75HE6.1|MTHR_ORYSJ 575 VSLVDNDYINGD 586
+                                         *********986 PP
+
+>> gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE  RecName: Full=Methylenetetrahydrofolate reductase 1; AltName: Full=ZmMTHFR1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  666.7   0.0  5.1e-203  6.8e-199       1     604 [.       1     586 [.       1     592 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 666.7 bits;  conditional E-value: 5.1e-203
+                       MET12.hit_seqs   1 mkisekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstl 74 
+                                          mk++ek+ +a    ++ fs+e+f+Pkte+Gv+nl++r+drm a  P f ditWgaGG+t++++l+++   q+++
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE   1 MKVIEKILEAAGDGRTAFSFEYFPPKTEEGVENLFERMDRMVAHGPSFCDITWGAGGSTADLTLEIANRMQNMV 74 
+                                          89999998886666999********************************************************* PP
+
+                       MET12.hit_seqs  75 gletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfai 148
+                                           +et++hltctnm++e id+ale+ ++ Giqn+lalrGdPP +++k+  +eg+f  a dlv++i+ kygd+f i
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE  75 CVETMMHLTCTNMPVEKIDHALETIKSNGIQNVLALRGDPPHGQDKFVQVEGGFACALDLVQHIRAKYGDYFGI 148
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 149 GvaayPeghveeed....aseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGl 218
+                                           va+yPe+h++  +    a+ +  ++dl ylk kvdaGad+i+tqlfyd+d fl+f++ +r++ g+  pi+PG+
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE 149 TVAGYPEAHPDAIQgeggATLEAYSNDLAYLKRKVDAGADLIVTQLFYDTDIFLKFVNDCRQI-GITCPIVPGI 221
+                                          **********9765222345677899************************************9.********** PP
+
+                       MET12.hit_seqs 219 mPistyaaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavv 292
+                                          mPi+ y+ flr + +++ +iP ei  +ldp+kd++eav++ G++l +e+++k+l +g +k lh+ytln++k+ +
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE 222 MPINNYKGFLRMTGFCKTKIPSEITAALDPIKDNEEAVRQYGIHLGTEMCKKILATG-IKTLHLYTLNMDKSAI 294
+                                          *****************************************************9765.9*************** PP
+
+                       MET12.hit_seqs 293 kilerlnlleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavarda 366
+                                           il +l l+e+ +              lP+r +++  r               +edv++i++ +r+ks++ r+ 
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE 295 GILMNLGLIEESKV----------SRPLPWRPATNVFRV--------------KEDVRPIFWANRPKSYLKRTL 344
+                                          *******9976554..........468******999999..............9******************** PP
+
+                       MET12.hit_seqs 367 tWdefPnGrfGdsrsPafGeidgygssl.rqspakalelWglP.ksiadlkkllinyleGklkvlPWsdl.pls 437
+                                           Wd++P Gr+Gdsr P++G +     +  r   +k  e W++P ks++d+++ + n+ +Gkl++ PWs+l +l+
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE 345 GWDQYPHGRWGDSRNPSYGALTDHQFTRpRGRGKKLQEEWAVPlKSVEDISERFTNFCQGKLTSSPWSELdGLQ 418
+                                          *********************888877779999**********789**********************9747** PP
+
+                       MET12.hit_seqs 438 detalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqekv 511
+                                          +et++i ++l+++nqkg+lt++sqPavn+ ks+    GWG   Gyvyqka+le+++ kekl++l++k+++   +
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE 419 PETKIIDDQLVNINQKGFLTINSQPAVNGEKSDSPTVGWGGPGGYVYQKAYLEFFCAKEKLDQLIEKIKAFPSL 492
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 512 syyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafsllse.Waklykknsesakllk 584
+                                          +y av+kdge  +n++ ++ navtWGvfPgke++qpt+v++ sf  Wk+eaf++++  W  ++++  +s++ll+
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE 493 TYIAVNKDGETFSNISPNAVNAVTWGVFPGKEIIQPTVVDHASFMVWKDEAFEIWTRgWGCMFPEGDSSRELLE 566
+                                          *******************************************************854**************** PP
+
+                       MET12.hit_seqs 585 kiideyvlvsivhndfveed 604
+                                          k+ + y+lvs+v+nd+v+ d
+  gi|75313356|sp|Q9SE94.1|MTHR1_MAIZE 567 KVQKTYYLVSLVDNDYVQGD 586
+                                          *****************976 PP
+
+>> gi|75313342|sp|Q9SE60.1|MTHR1_ARATH  RecName: Full=Methylenetetrahydrofolate reductase 1; Short=AtMTHFR1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  659.2   1.3  9.5e-201  1.3e-196       1     607 [.       1     588 [.       1     592 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 659.2 bits;  conditional E-value: 9.5e-201
+                       MET12.hit_seqs   1 mkisekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstl 74 
+                                          mk+++k++   ++ ++ fs+eff+Pkte+Gv+nl++r+dr+ ++ P f ditWgaGG+t++++l++++  q+++
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH   1 MKVVDKIKSVTEQGQTAFSFEFFPPKTEDGVENLFERMDRLVSYGPTFCDITWGAGGSTADLTLEIASRMQNVI 74 
+                                          8999**99999999************************************************************ PP
+
+                       MET12.hit_seqs  75 gletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfai 148
+                                           +et++hltctnm++e id+ale+  + Giqn+lalrGdPP +++k+  +eg+f  a dlv +i++kygd+f i
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH  75 CVETMMHLTCTNMPIEKIDHALETIRSNGIQNVLALRGDPPHGQDKFVQVEGGFACALDLVNHIRSKYGDYFGI 148
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 149 GvaayPeghveeed....aseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGl 218
+                                           va+yPe+h++  +    a+ +  + dl ylk+kvdaGad+i+tqlfyd+d fl+f++ +r++ g++ pi+PG+
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH 149 TVAGYPEAHPDVIEadglATPESYQSDLAYLKKKVDAGADLIVTQLFYDTDIFLKFVNDCRQI-GINCPIVPGI 221
+                                          **********96552244567889**************************************9.********** PP
+
+                       MET12.hit_seqs 219 mPistyaaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavv 292
+                                          mPis y+ flr a +++ +iP e+  +l+p+kd+deavk+ G++  +e+++k+l  g +  lh+ytln++k+ +
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH 222 MPISNYKGFLRMAGFCKTKIPAELTAALEPIKDNDEAVKAYGIHFATEMCKKILAHG-ITSLHLYTLNVDKSAI 294
+                                          ******************************************************876.899************* PP
+
+                       MET12.hit_seqs 293 kilerlnlleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavarda 366
+                                           il +l l+++ +             +lP+r+  +  r+              +edv++i++ +r+ks+++r++
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH 295 GILMNLGLIDESKI----------SRSLPWRRPANVFRT--------------KEDVRPIFWANRPKSYISRTK 344
+                                          *******9976544..........5679**988888888..............9******************** PP
+
+                       MET12.hit_seqs 367 tWdefPnGrfGdsrsPafGeidgygssl.rqspakalelWglP.ksiadlkkllinyleGklkvlPWsdl.pls 437
+                                           W++fP Gr+Gds+s a+  +  y     +   +k  + W +P ksi+d+++ + +   G+lk+ PWs+l +l+
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH 345 GWNDFPHGRWGDSHSAAYSTLSDYQFARpKGRDKKLQQEWVVPlKSIEDVQEKFKELCIGNLKSSPWSELdGLQ 418
+                                          ************************99987888899999*****789**********************9747** PP
+
+                       MET12.hit_seqs 438 detalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqekv 511
+                                          +et++i+e+l ++n++g+lt++sqP+vna+ks+    GWG   Gyvyqka+le+++sk+kl++l++k ++   +
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH 419 PETKIINEQLGKINSNGFLTINSQPSVNAAKSDSPAIGWGGPGGYVYQKAYLEFFCSKDKLDTLVEKSKAFPSI 492
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 512 syyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafslls.eWaklykknsesakllk 584
+                                          +y av+k+++  +n+ e++ navtWGvfP+kev+qptiv+  sfk Wk+eaf+++s  Wa+ly+++  s+kll+
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH 493 TYMAVNKSENWVSNTGESDVNAVTWGVFPAKEVIQPTIVDPASFKVWKDEAFEIWSrSWANLYPEDDPSRKLLE 566
+                                          *******************************************************846**************** PP
+
+                       MET12.hit_seqs 585 kiideyvlvsivhndfveedelf 607
+                                          ++ + y+lvs+v+n++++ d +f
+  gi|75313342|sp|Q9SE60.1|MTHR1_ARATH 567 EVKNSYYLVSLVDNNYINGD-IF 588
+                                          *****************986.45 PP
+
+>> gi|22096355|sp|O80585.2|MTHR2_ARATH  RecName: Full=Methylenetetrahydrofolate reductase 2; Short=AtMTHFR2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  657.1   0.5  4.3e-200  5.7e-196       1     607 [.       1     588 [.       1     594 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 657.1 bits;  conditional E-value: 4.3e-200
+                       MET12.hit_seqs   1 mkisekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstl 74 
+                                          mk+++k++      ++ fs+eff+Pkte+Gv nl++r+drm a+ P f ditWgaGG+t++++ld+++  q+++
+  gi|22096355|sp|O80585.2|MTHR2_ARATH   1 MKVIDKIQSLADEGKTAFSFEFFPPKTEDGVDNLFERMDRMVAYGPTFCDITWGAGGSTADLTLDIASRMQNVV 74 
+                                          899999988888889*********************************************************** PP
+
+                       MET12.hit_seqs  75 gletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfai 148
+                                           +e ++hltctnm++e id+ale+  + Giqn+lalrGdPP +++k+  +eg+f  a dlv +i++kygd+f i
+  gi|22096355|sp|O80585.2|MTHR2_ARATH  75 CVESMMHLTCTNMPVEKIDHALETIRSNGIQNVLALRGDPPHGQDKFVQVEGGFDCALDLVNHIRSKYGDYFGI 148
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 149 GvaayPeghve..eed..aseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGl 218
+                                           va+yPe+h++  +e+  as++  + dleylk+k+daGad+i+tqlfyd+d fl+f++ +r++ g+  pi+PG+
+  gi|22096355|sp|O80585.2|MTHR2_ARATH 149 TVAGYPEAHPDviGENglASNEAYQSDLEYLKKKIDAGADLIVTQLFYDTDIFLKFVNDCRQI-GISCPIVPGI 221
+                                          **********9443444689999***************************************9.********** PP
+
+                       MET12.hit_seqs 219 mPistyaaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavv 292
+                                          mPi+ y  flr + +++ +iP e++ +l+p+kd++eavk+ G++l +e+++k+l  g vk lh+ytln+ek+ +
+  gi|22096355|sp|O80585.2|MTHR2_ARATH 222 MPINNYRGFLRMTGFCKTKIPVEVMAALEPIKDNEEAVKAYGIHLGTEMCKKMLAHG-VKSLHLYTLNMEKSAL 294
+                                          *****************************************************9876.9*************** PP
+
+                       MET12.hit_seqs 293 kilerlnlleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavarda 366
+                                           il +l ++++ +             +lP+r+  +  r+              +edv++i++ +r+ks+++r++
+  gi|22096355|sp|O80585.2|MTHR2_ARATH 295 AILMNLGMIDESKI----------SRSLPWRRPANVFRT--------------KEDVRPIFWANRPKSYISRTK 344
+                                          ****9999876543..........5689**988888888..............9******************** PP
+
+                       MET12.hit_seqs 367 tWdefPnGrfGdsrsPafGeidgygssl.rqspakalelWglP.ksiadlkkllinyleGklkvlPWsdl.pls 437
+                                           W++fP Gr+Gdsrs ++G +     s  r   +k  + W +P ks++d+++ + +   G+lk+ PWs+l +l+
+  gi|22096355|sp|O80585.2|MTHR2_ARATH 345 GWEDFPQGRWGDSRSASYGALSDHQFSRpRARDKKLQQEWVVPlKSVEDIQEKFKELCLGNLKSSPWSELdGLQ 418
+                                          *********************8888777699999999******789**********************9747** PP
+
+                       MET12.hit_seqs 438 detalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqekv 511
+                                          +et++i+e+l+++n+kg+lt++sqP+vna +s+    GWG   Gyvyqka+le+++skekl+ +++k ++   +
+  gi|22096355|sp|O80585.2|MTHR2_ARATH 419 PETRIINEQLIKVNSKGFLTINSQPSVNAERSDSPTVGWGGPVGYVYQKAYLEFFCSKEKLDAVVEKCKALPSI 492
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 512 syyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafslls.eWaklykknsesakllk 584
+                                          +y av+k ++  +n+ + + navtWGvfP+ke++qptiv+  sf+ Wk+eaf+ +s  Wa+ly++   s++ll+
+  gi|22096355|sp|O80585.2|MTHR2_ARATH 493 TYMAVNKGEQWVSNTAQADVNAVTWGVFPAKEIIQPTIVDPASFNVWKDEAFETWSrSWANLYPEADPSRNLLE 566
+                                          *******************************************************846**************** PP
+
+                       MET12.hit_seqs 585 kiideyvlvsivhndfveedelf 607
+                                          ++ + y+lvs+v+nd+++ d +f
+  gi|22096355|sp|O80585.2|MTHR2_ARATH 567 EVKNSYYLVSLVENDYINGD-IF 588
+                                          *****************986.44 PP
+
+>> gi|56405339|sp|P42898.3|MTHR_HUMAN  RecName: Full=Methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  617.5   0.0    4e-188  5.4e-184       4     611 ..      46     637 ..      44     639 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 617.5 bits;  conditional E-value: 4e-188
+                      MET12.hit_seqs   4 sekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGG....rtseksldlvataqstl 74 
+                                         +ek+ ++l++ +k fsleff+P+t +G  nl+ r+drmaa  Pl+id+tW   G       + s+ +++ta +  
+  gi|56405339|sp|P42898.3|MTHR_HUMAN  46 REKMRRRLESGDKWFSLEFFPPRTAEGAVNLISRFDRMAAGGPLYIDVTWHPAGdpgsDKETSSMMIASTAVNYC 120
+                                         67888899999***************************************8554322123334566899****** PP
+
+                      MET12.hit_seqs  75 gletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiG 149
+                                         glet+lh+tc     e i   l+ka++ G++ni+alrGdP    ++we  eg+f+ya+dlvk+i++++gd+f+i 
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 121 GLETILHMTCCRQRLEEITGHLHKAKQLGLKNIMALRGDPI--GDQWEEEEGGFNYAVDLVKHIRSEFGDYFDIC 193
+                                         ***************************************95..56899*************************** PP
+
+                      MET12.hit_seqs 150 vaayPeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPisty 224
+                                         va+yP gh+e        ++ dl++lkekv aGadfiitqlf++ d f++f+k++ ++ g+  pi+PG+ Pi+ y
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 194 VAGYPKGHPEAG-----SFEADLKHLKEKVSAGADFIITQLFFEADTFFRFVKACTDM-GITCPIVPGIFPIQGY 262
+                                         **********99.....899*************************************9.**************** PP
+
+                      MET12.hit_seqs 225 aaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkilerln 299
+                                         +++ +  kls++++Pqei d ++p+kd+d a+++ G+el + l+q+ll sg v glhfytln e a+ ++l+rl 
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 263 HSLRQLVKLSKLEVPQEIKDVIEPIKDNDAAIRNYGIELAVSLCQELLASGLVPGLHFYTLNREMATTEVLKRLG 337
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 300 lleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavardatWdefPnG 374
+                                         + +++               lP+  s +++r+              eedv++i++ sr+ks++ r+++WdefPnG
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 338 MWTEDPR-----------RPLPWALSAHPKRR--------------EEDVRPIFWASRPKSYIYRTQEWDEFPNG 387
+                                         9987655...........68***********9..............9**************************** PP
+
+                      MET12.hit_seqs 375 rfGdsrsPafGeidgy.gssl..rqspakalelWglP.ksiadlkkllinyleG.......klkvlPWsdlplsd 438
+                                         r+G+s+sPafGe+  y    l  + ++++ l++Wg+  +s + + ++++ yl+G       k+++lPW d pl++
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 388 RWGNSSSPAFGELKDYyLFYLksKSPKEELLKMWGEElTSEESVFEVFVLYLSGepnrnghKVTCLPWNDEPLAA 462
+                                         *************665156666455667899****9724566799*******995555555599*********** PP
+
+                      MET12.hit_seqs 439 etalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqe.kvs 512
+                                         et+l+keell++n++gilt++sqP++n+  ssd i GWGP  Gyv+qka+le++ s+e++e ll+ l++ e  v 
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 463 ETSLLKEELLRVNRQGILTINSQPNINGKPSSDPIVGWGPSGGYVFQKAYLEFFTSRETAEALLQVLKKYElRVN 537
+                                         ********************************************************************97769** PP
+
+                      MET12.hit_seqs 513 yyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafsllse.Waklykknsesakllkki 586
+                                         y+ v+ +ge  tn++e + navtWG+fPg+e++qpt+v+  sf  Wk+eaf l+ e W kly+++s s+++++ i
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 538 YHLVNVKGENITNAPELQPNAVTWGIFPGREIIQPTVVDPVSFMFWKDEAFALWIErWGKLYEEESPSRTIIQYI 612
+                                         ******************************************************887****************** PP
+
+                      MET12.hit_seqs 587 ideyvlvsivhndfveedelfdlll 611
+                                         +d+y+lv++v+ndf  ++ l+++++
+  gi|56405339|sp|P42898.3|MTHR_HUMAN 613 HDNYFLVNLVDNDFPLDNCLWQVVE 637
+                                         *********************9986 PP
+
+>> gi|75061139|sp|Q5I598.1|MTHR_BOVIN  RecName: Full=Methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  614.3   0.0  3.8e-187  5.1e-183       4     611 ..      45     636 ..      42     638 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 614.3 bits;  conditional E-value: 3.8e-187
+                      MET12.hit_seqs   4 sekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGG.rtsek...sldlvataqstl 74 
+                                         +ek+++++ + +k fsleff+P+t qG  nl+ r+drm a  Plf+d+tW   G   s+k   s+ +++ta +  
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN  45 REKMKRKMDSGDKWFSLEFFPPRTAQGAVNLISRFDRMGAGGPLFVDVTWHPAGdPGSDKetsSMVIASTAVNYC 119
+                                         57777777778***************************************85553333331115567899***** PP
+
+                      MET12.hit_seqs  75 gletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiG 149
+                                         glet+lh+tc   ++e i   l+ka++ G++nilalrGdP    ++we  eg+f+ya+dlvk+i++++gd+f++ 
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 120 GLETILHMTCCHQSREEITGHLNKAKQLGLKNILALRGDPI--GDQWEEEEGGFNYATDLVKHIRNEFGDYFDVC 192
+                                         ***************************************95..56899*************************** PP
+
+                      MET12.hit_seqs 150 vaayPeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPisty 224
+                                         va+yP gh+e+e      ++ dl++lkekv aGadfiitqlf++ + f++f+k++ e+ g+  p++PG+ Pi+ y
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 193 VAGYPKGHPEGE-----SFEADLKHLKEKVAAGADFIITQLFFEAETFFRFVKACSEI-GITCPVLPGIFPIQGY 261
+                                         ************.....899*************************************9.**************** PP
+
+                      MET12.hit_seqs 225 aaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkilerln 299
+                                         +++ +  kls++++Pq+i d ++p+kd+d a+++ G+e  + l+q+ll sg v glhfytln e a++++l+rl 
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 262 HSLRQLVKLSKLEVPQQIKDVIEPIKDNDAAIRNYGIEQAVSLCQELLASGLVPGLHFYTLNREVATIEVLKRLG 336
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 300 lleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavardatWdefPnG 374
+                                         l  ++               lP+  s +++r+               edv++i++ sr+ks++ r+++WdefPnG
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 337 LWIEDPR-----------RPLPWALSAHPKRR--------------VEDVRPIFWASRPKSYIYRTQEWDEFPNG 386
+                                         9865544...........68***********9..............89*************************** PP
+
+                      MET12.hit_seqs 375 rfGdsrsPafGeidgy.gssl..rqspakalelWglP.ksiadlkkllinyleG.......klkvlPWsdlplsd 438
+                                         r+G+s+sPafGe+  y    l  + ++++ l++Wg+  +s + + +++++ l+G       k+++lPW d pl++
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 387 RWGNSSSPAFGELKDYyLFYLksKSPKEELLKMWGEElTSEESVFQVFAHHLSGepnqngyKVTCLPWNDEPLAA 461
+                                         *************665156666455667899****9724566799********95555555599*********** PP
+
+                      MET12.hit_seqs 439 etalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqe.kvs 512
+                                         et+l+keell++n++gilt++sqP++n+  ssd i GWGP  Gyv+qka+le++ s+e++e ll+ l++ e  v 
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 462 ETSLMKEELLRVNRRGILTINSQPNINGKPSSDPIVGWGPSGGYVFQKAYLEFFTSRETVEALLQVLKKYElRVN 536
+                                         ********************************************************************97769** PP
+
+                      MET12.hit_seqs 513 yyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafsllse.Waklykknsesakllkki 586
+                                         y++vd +ge  tn++e + navtWG+fPg+e++qpt+v+  sf  Wk+eaf l+ e W kly+++s s+ +++ i
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 537 YHIVDVKGENITNAPELQPNAVTWGIFPGREIIQPTVVDPVSFMFWKDEAFALWIEqWGKLYEEESPSRMIIQYI 611
+                                         ******************************************************877****************** PP
+
+                      MET12.hit_seqs 587 ideyvlvsivhndfveedelfdlll 611
+                                         +d+y+lv++v+n+f  ++ l+++++
+  gi|75061139|sp|Q5I598.1|MTHR_BOVIN 612 HDNYFLVNLVDNEFPLDNCLWQVVE 636
+                                         *********************9986 PP
+
+>> gi|62287023|sp|Q60HE5.1|MTHR_MACFA  RecName: Full=Methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  611.8   0.0  2.2e-186    3e-182       4     611 ..      46     637 ..      44     639 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 611.8 bits;  conditional E-value: 2.2e-186
+                      MET12.hit_seqs   4 sekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGG....rtseksldlvataqstl 74 
+                                         ++k+ +++++ +k fsleff+P+t +G  nl+ r+drmaa  Plfid+tW   G       + s+ +++ta +  
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA  46 RDKMRRRMESGDKWFSLEFFPPRTAEGAVNLISRFDRMAAGGPLFIDVTWHPAGdpgsDKETSSMMIASTAVNYC 120
+                                         57788888888***************************************8554322123334566899****** PP
+
+                      MET12.hit_seqs  75 gletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiG 149
+                                         glet+lh+tc     e i   l+ka++ G++ni+alrGdP    ++we  eg+f+ya+dlvk+i++++gd+f++ 
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 121 GLETILHMTCCCQRLEEITGHLHKAKQLGLKNIMALRGDPI--GDQWEEEEGGFNYAVDLVKHIRSEFGDYFDLC 193
+                                         ***************************************95..56899*************************** PP
+
+                      MET12.hit_seqs 150 vaayPeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPisty 224
+                                         va+yP gh+e        ++ dl++lkekv aGadfiitqlf++ d f++f+k++ ++ g+  pi+PG+ Pi+ y
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 194 VAGYPKGHPEAG-----SFEADLKHLKEKVSAGADFIITQLFFEADTFFRFVKACTDM-GITCPIVPGIFPIQGY 262
+                                         **********99.....899*************************************9.**************** PP
+
+                      MET12.hit_seqs 225 aaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkilerln 299
+                                         +++ +  k s++++Pqei d ++p+kd+d a+++ G+el + l+++ll sg v glhfytln e a+ ++l+rl 
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 263 HSLRQLVKQSKLEVPQEIKDVIEPIKDNDAAIRNYGIELAVSLCHELLASGLVPGLHFYTLNREMATTEVLKRLG 337
+                                         *************************************************************************** PP
+
+                      MET12.hit_seqs 300 lleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavardatWdefPnG 374
+                                         + +++               lP+  s +++r+              eedv++i++ sr+ks++ r+++WdefPnG
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 338 MWTEDPR-----------RPLPWALSAHPKRR--------------EEDVRPIFWASRPKSYIYRTQEWDEFPNG 387
+                                         9987655...........68***********9..............9**************************** PP
+
+                      MET12.hit_seqs 375 rfGdsrsPafGeidgy.gssl.rqspak.alelWglP.ksiadlkkllinyleG.......klkvlPWsdlplsd 438
+                                         r+G+s+sPafGe+  y    l  +sp++  l++Wg+  +s + + ++++ yl+G       k+++lPW d pl++
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 388 RWGNSSSPAFGELKDYyLFYLkSKSPRElLLKMWGEElTSEESVFEVFVLYLSGepnrnghKVTCLPWNDEPLAA 462
+                                         *************66515667656666525799**9724566799*******995555555599*********** PP
+
+                      MET12.hit_seqs 439 etalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqe.kvs 512
+                                         et+l+keell++n++gilt++sqP++n+  ssd + GWGP  Gyv+qka+le++ s+e++e ll+ l++ e  v 
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 463 ETSLLKEELLRVNRQGILTINSQPNINGKPSSDPVVGWGPSGGYVFQKAYLEFFTSRETAEALLQVLKKYElRVN 537
+                                         ********************************************************************97769** PP
+
+                      MET12.hit_seqs 513 yyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafsllse.Waklykknsesakllkki 586
+                                         y+ v+ +ge  tn++e + navtWG+fPg+e++qpt+v+ +sf  Wk+eaf l+ e W kly+++s s+++++ i
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 538 YHLVNVKGENITNAPELQPNAVTWGIFPGREIIQPTVVDPISFMFWKDEAFALWIEqWGKLYEEESPSRTIIQYI 612
+                                         ******************************************************877****************** PP
+
+                      MET12.hit_seqs 587 ideyvlvsivhndfveedelfdlll 611
+                                         +d+y+lv++v+ndf  ++ l+++++
+  gi|62287023|sp|Q60HE5.1|MTHR_MACFA 613 HDNYFLVNLVDNDFPLDNCLWQVVE 637
+                                         *********************9986 PP
+
+>> gi|341940976|sp|Q9WU20.2|MTHR_MOUSE  RecName: Full=Methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  606.4   0.0  9.3e-185  1.2e-180       4     611 ..      45     636 ..      42     638 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 606.4 bits;  conditional E-value: 9.3e-185
+                       MET12.hit_seqs   4 sekleaalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGG....rtseksldlvataqst 73 
+                                          +ek+ +++ + +k fsleff+P+t +G  nl+ r+drmaa  Plf+d+tW   G       + s+ +++ta + 
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE  45 REKMRRRMDSGDKWFSLEFFPPRTAEGAVNLISRFDRMAAGGPLFVDVTWHPAGdpgsDKETSSMMIASTAVNY 118
+                                          57777787888***************************************8554322123334566899***** PP
+
+                       MET12.hit_seqs  74 lgletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfa 147
+                                           glet+lh+tc +   e i   l++a++ G++ni+alrGdP    ++we+ eg+f ya+dlvk+i+ ++ d+f+
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 119 CGLETILHMTCCQQRPEEITGHLHRAKQLGLKNIMALRGDPV--GDHWEAEEGGFSYATDLVKHIRTEFADYFD 190
+                                          ****************************************96..5789************************** PP
+
+                       MET12.hit_seqs 148 iGvaayPeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPi 221
+                                          i va+yP gh++ e      ++ dl++lkekv aGadfiitqlf++   f++f+k++ e+ g+  pi+PG+ Pi
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 191 ICVAGYPRGHPDAE-----SFEDDLKHLKEKVSAGADFIITQLFFEASTFFSFVKACTEI-GISCPILPGIFPI 258
+                                          *************9.....8999************************************9.************* PP
+
+                       MET12.hit_seqs 222 styaaflraaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkil 295
+                                          + y+++ +  kls++++Pq+i d ++p+kd+d a+++ G+el + l+ +lldsg v glhfytln e a++++l
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 259 QGYTSLRQLVKLSKLEVPQKIKDVIEPIKDNDAAIRNYGIELAVSLCRELLDSGLVPGLHFYTLNREVATMEVL 332
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 296 erlnlleqeseesseeasgstaeelPerkslkrrrkssldsnklvsdkaeeedvkvilaksrkksavardatWd 369
+                                          ++l + +++               lP+  s +++r+              eedv++i++ sr+ks++ r+++Wd
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 333 KQLGMWTEDPR-----------RPLPWALSAHPKRR--------------EEDVRPIFWASRPKSYIYRTQDWD 381
+                                          ****9887655...........68***********9..............9*********************** PP
+
+                       MET12.hit_seqs 370 efPnGrfGdsrsPafGeidgy.gssl..rqspakalelWglP.ksiadlkkllinyleGk.......lkvlPWs 432
+                                          efPnGr+G+s+sPafGe+  y    l  + ++++ l++Wg+  +s + + +++ +yl+G+       +++lPW 
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 382 EFPNGRWGNSSSPAFGELKDYyLFYLksKSPREELLKMWGEElTSEESVFEVFEHYLSGEpnrhgyrVTCLPWN 455
+                                          ******************665155666345567899****9724566799*********6555555589***** PP
+
+                       MET12.hit_seqs 433 dlplsdetalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkle 506
+                                          d pl++et+l+keell++n+ gilt++sqP++na  ssd + GWGP  Gyv+qka+le++ s+e++e ll+ l+
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 456 DEPLAAETSLMKEELLRVNRLGILTINSQPNINAKPSSDPVVGWGPSGGYVFQKAYLEFFTSRETVEALLQVLK 529
+                                          ************************************************************************** PP
+
+                       MET12.hit_seqs 507 eqe.kvsyyavdkdgeletnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafsllse.Waklykknse 578
+                                          + e  v y++vd +ge  tn++e + navtWG+fPg+e++qpt+v+ +sf  Wk+eaf l+ e W kly+++s 
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 530 TYElRVNYHIVDVKGENITNAPELQPNAVTWGIFPGREIIQPTVVDPISFMFWKDEAFALWIEqWGKLYEEESP 603
+                                          97769********************************************************877********** PP
+
+                       MET12.hit_seqs 579 sakllkkiideyvlvsivhndfveedelfdlll 611
+                                          s+ +++ i+d+y+lv++v+n+f  +  l+++++
+  gi|341940976|sp|Q9WU20.2|MTHR_MOUSE 604 SRMIIQYIHDNYFLVNLVDNEFPLDSCLWQVVE 636
+                                          **********************99999999876 PP
+
+>> gi|21542426|sp|Q17693.2|MTHR_CAEEL  RecName: Full=Probable methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  542.8   0.0  1.7e-165  2.3e-161       9     611 ..      64     655 ..      56     658 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 542.8 bits;  conditional E-value: 1.7e-165
+                      MET12.hit_seqs   9 aalkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtse.....ksldlvataqstlglet 78 
+                                         +    +++ffsleff+P+  +Gv n+l+r++r+++   +f+d+tW  G   ++      s  ++a   +  g++t
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL  64 RLIDEKQQFFSLEFFPPRFVNGVPNFLERVERLSEGGSVFVDMTWHMGSDPANvdkvtSSSSIAASMLDYCGVDT 138
+                                         34445699****************************************96554221114667888888889**** PP
+
+                      MET12.hit_seqs  79 clhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaay 153
+                                         +lh+tc + +k+   + le+a++ G++ ilalrGd P + e  +  + +f+ a d++++i+e+yg++f+iG a+y
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 139 MLHMTCVQYNKADTLKHLEQAKAMGLRSILALRGDLPPGTELED--THQFR-ALDMIRWIREEYGNYFSIGCAGY 210
+                                         ***********************************999998844..46775.99********************* PP
+
+                      MET12.hit_seqs 154 PeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaafl 228
+                                         P gh++ +       k dl ylk k+daGa+f+itqlf++ + f +f++ +re+ g+  piiPG+mPi  y +  
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 211 PLGHPQAP-----SYKADLMYLKAKCDAGANFVITQLFFEAETFEKFVRDCREI-GITQPIIPGIMPIMGYESIK 279
+                                         ********.....8999************************************9.******************** PP
+
+                      MET12.hit_seqs 229 raaklseisiPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkilerlnlleq 303
+                                         r akls+++iPq+ild l+p+k+dd av++ G+e  +e++ +lld+g+   +h+yt+n e ++ +il+ l l + 
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 280 RIAKLSQLEIPQHILDDLEPIKHDDDAVQKYGTERCIEMCRRLLDNGTAPSIHLYTMNREGSIREILKSLGLWKL 354
+                                         ************************************************************************998 PP
+
+                      MET12.hit_seqs 304 eseesseeasgstaeelPerk.slkrrrkssldsnklvsdkaeeedvkvilaksrkksavardatWdefPnGrfG 377
+                                         e +              P+++ s+++ r                e+v++i +  r++s+++r+ +Wd+fPnGr+G
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 355 EGD-----------RVFPWKNrSQHPIRC--------------LESVRPIYWSFRPRSYITRTRDWDQFPNGRWG 404
+                                         776...........578996424455555..............89****************************** PP
+
+                      MET12.hit_seqs 378 dsrsPafGeidgyg.ssl...rqspakalelWg.lPksiadlkkllinyle......G.klkvlPWsd..lplsd 438
+                                         +s+sPafG++ +y  s+l   r++ +  l ++g   +s +d+k+++iny++      G k++vlPW++  +++++
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 405 NSSSPAFGDVSSYYlSNLttvRNADD-RLAMFGaNIESFEDVKRVFINYITqapnadGvKVTVLPWTEaeTGVQP 478
+                                         **********9875255543244444.45555516799************733333325799****7522689** PP
+
+                      MET12.hit_seqs 439 etalikeellelnqkgiltvasqPavnavkssdkifGWGPknGyvyqkaflelliskeklekllkkleeqe..kv 511
+                                         et+li e+l+  n++giltv+sqP+vn++ s+d + GWG   Gy yqka+le +++ e  +kl++ +e++    v
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 479 ETSLISEQLVWCNENGILTVNSQPSVNGAPSTDPLVGWGKPGGYCYQKAYLECFMTAELSDKLIQIIEREFpvRV 553
+                                         ********************************************************************9654499 PP
+
+                      MET12.hit_seqs 512 syyavdkdgel.etnlkekssnavtWGvfPgkevvqptivekesfkaWkeeafslls.eWaklykknsesakllk 584
+                                          y+a++kd ++ +tn +e++  avtWGvfPg+e+ qpt+v+  sf+aW++ea++++  +W   y+k+s+s  ++k
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 554 NYHAINKDSTFdKTNSEETTPIAVTWGVFPGSEIAQPTVVDPLSFRAWRDEAYQMWMaQWGDFYPKESKSYGVIK 628
+                                         **********94599999*************************************9538**************** PP
+
+                      MET12.hit_seqs 585 kiideyvlvsivhndfveedelfdlll 611
+                                          ++de+ lv++v+ndf++   lfd+l+
+  gi|21542426|sp|Q17693.2|MTHR_CAEEL 629 AVHDEFRLVTLVDNDFQKPSVLFDVLQ 655
+                                         ************************997 PP
+
+>> gi|6016544|sp|O67422.1|METF_AQUAE  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  283.8   0.0   4.4e-87   5.9e-83      17     297 ..      13     286 ..       2     293 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 283.8 bits;  conditional E-value: 4.4e-87
+                     MET12.hit_seqs  17 ffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctnmekeli 92 
+                                         +s+eff+Pkte+G r l++ + ++ +l+P f+ +t+gaGG+t +++ ++v++  ++ +l+++ hltc    +e +
+  gi|6016544|sp|O67422.1|METF_AQUAE  13 SISFEFFPPKTEEGERQLFETIRKLEKLNPTFVSVTYGAGGSTRDRTRNIVQKIHEETNLTVMAHLTCIAHTREEL 88 
+                                        58******************************************************************87666555 PP
+
+                     MET12.hit_seqs  93 ddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeedaseqdv 168
+                                         d l+  ++ Gi+nilalrGd P+d+  w p +g  kyak+lv  i++++gd f+iGva+yPegh+e +     + 
+  gi|6016544|sp|O67422.1|METF_AQUAE  89 IDILQDYKNIGIENILALRGDVPRDKPDWRPPKGACKYAKELVELIRKEFGDWFSIGVASYPEGHPESP-----NL 159
+                                        569******************************************************************.....99 PP
+
+                     MET12.hit_seqs 169 kkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseisiPqeild 244
+                                        + +++y+kekv+aGadf itq+f+  d + +f++ ++++ g+di+iiPG+mPi+ ++   + a l+ ++iPq++++
+  gi|6016544|sp|O67422.1|METF_AQUAE 160 EWEVKYFKEKVEAGADFSITQMFFVNDYYYRFVEMCKNA-GIDISIIPGIMPITNFKQIRKFASLCGATIPQSLIE 234
+                                        9*************************************9.************************************ PP
+
+                     MET12.hit_seqs 245 rldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkiler 297
+                                        +l++v+d  e+vk++G+e  ++ + +l + g v glhfytln   a++ki e 
+  gi|6016544|sp|O67422.1|METF_AQUAE 235 KLEKVEDKPEEVKKIGIEFAINQCLDLIEHG-VPGLHFYTLNKSDATLKIYEA 286
+                                        **************************99876.9****************9885 PP
+
+>> gi|6016546|sp|O54235.1|METF_STRLI  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  211.0   0.0     5e-65   6.7e-61      11     300 ..      20     301 ..      11     305 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 211.0 bits;  conditional E-value: 5e-65
+                     MET12.hit_seqs  11 lkadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctn 86 
+                                        l++ ++++s+ef +Pkt +G +nl   l r+ a+ P f+ +t+gaGG+t   +   +++      l+ + hlt  +
+  gi|6016546|sp|O54235.1|METF_STRLI  20 LATGKTTYSFEFSAPKTPKGEKNLWSALRRVEAVAPDFVSVTYGAGGSTRAGTVRETQQIVADTTLTPVAHLTAVD 95 
+                                        456699*****************************************9999888877777788899********** PP
+
+                     MET12.hit_seqs  87 mekeliddalekafkaGiqnilalrGdPPldee.kwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveee 161
+                                         +++ + + + +  +aGi+n+la+rGdPP d +  w +   ++ ya++lv+ ike+    f++Gvaa+Pe h+   
+  gi|6016546|sp|O54235.1|METF_STRLI  96 HSVAELRNIIGQYADAGIRNMLAVRGDPPGDPNaDWIAHPEGLTYAAELVRLIKES--GDFCVGVAAFPEMHPRSA 169
+                                        *****************************996526999999*************97..45*************998 PP
+
+                     MET12.hit_seqs 162 daseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseis 237
+                                             d ++d++ +++k+ aGad+ itq+f+  d +l+  +++ ++ g   p+iP +mP+++ +++ r  kls++s
+  gi|6016546|sp|O54235.1|METF_STRLI 170 -----DWDTDVTNFVDKCRAGADYAITQMFFQPDSYLRLRDRVAAA-GCATPVIPEVMPVTSVKMLERLPKLSNAS 239
+                                        .....99*************************************99.***************************** PP
+
+                     MET12.hit_seqs 238 iPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvkilerlnl 300
+                                         P e+ +r+ + kdd  av+++G+e  +e++ +ll +g v glhf tln   a+++i e+l l
+  gi|6016546|sp|O54235.1|METF_STRLI 240 FPAELKERILTAKDDPAAVRSIGIEFATEFCARLLAEG-VPGLHFITLNNSTATLEIYENLGL 301
+                                        **********************************9876.9******************99876 PP
+
+>> gi|6016545|sp|P71319.1|METF_PECCC  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  198.0   0.0   4.1e-61   5.5e-57      16     290 ..      23     282 ..       8     296 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 198.0 bits;  conditional E-value: 4.1e-61
+                     MET12.hit_seqs  16 kffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctnmekel 91 
+                                          +s+eff+P+t++  + l   +dr+++lkP f+ +t+ga     +++  +++t ++  gle++ hltc + ++e 
+  gi|6016545|sp|P71319.1|METF_PECCC  23 INVSFEFFPPRTSDMEETLWSSIDRLSSLKPKFVSVTYGANSGERDRTHSIIKTIKERTGLEAAPHLTCIDASREQ 98 
+                                        569************************************************************************* PP
+
+                     MET12.hit_seqs  92 iddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeedaseqd 167
+                                        + +  +   ++Gi+ i+alrGd P++  k +       ya+dlv  +ke  g  f+i vaayPe h+e +      
+  gi|6016545|sp|P71319.1|METF_PECCC  99 LREIAQDYWESGIRHIVALRGDLPQEGGKPD------MYAADLVSLLKEV-G-DFDISVAAYPEVHPEAK-----S 161
+                                        *************************999843......5********9985.4.4**************99.....7 PP
+
+                     MET12.hit_seqs 168 vkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseisiPqeil 243
+                                         + dl  lk+k+daGa+  itq+f+dv+ +l+f +++ ++ g+d+ i+PG++P+s ++ +++ a ++++ +P+ + 
+  gi|6016545|sp|P71319.1|METF_PECCC 162 AQADLINLKHKIDAGANRAITQFFFDVESYLRFRDRCVAT-GIDVEIVPGILPVSNFKQLQKFATMTNVRVPNWMT 236
+                                        899************************************9.*********************************** PP
+
+                     MET12.hit_seqs 244 drldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnleka 290
+                                          +d + +d e+ k +G  + +++++ +l+ + vk++hfytln    
+  gi|6016545|sp|P71319.1|METF_PECCC 237 TMFDGLDNDPETRKMVGASIAMDMVK-ILSREGVKDFHFYTLNRAEL 282
+                                        ************************95.677788**********6554 PP
+
+>> gi|84028093|sp|P0AEZ1.1|METF_ECOLI  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  193.2   0.0   1.2e-59   1.5e-55      15     294 ..      22     286 ..       7     294 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 193.2 bits;  conditional E-value: 1.2e-59
+                      MET12.hit_seqs  15 ekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctnmek 89 
+                                         +  +s+eff+P+t++  + l + +dr+++lkP f+ +t+ga     +++  +++  ++  gle++ hltc +   
+  gi|84028093|sp|P0AEZ1.1|METF_ECOLI  22 QINVSFEFFPPRTSEMEQTLWNSIDRLSSLKPKFVSVTYGANSGERDRTHSIIKGIKDRTGLEAAPHLTCIDATP 96 
+                                         5679********************************************************************999 PP
+
+                      MET12.hit_seqs  90 eliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeedas 164
+                                         + +        + Gi+ i+alrGd P ++ k e       ya dlv  +ke     f+i vaayPe h+e +   
+  gi|84028093|sp|P0AEZ1.1|METF_ECOLI  97 DELRTIARDYWNNGIRHIVALRGDLPPGSGKPE------MYASDLVTLLKEVA--DFDISVAAYPEVHPEAK--- 160
+                                         9999999999**************999998833......5*********9975..5**************99... PP
+
+                      MET12.hit_seqs 165 eqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseisiP 239
+                                             + dl  lk kvdaGa+  itq+f+dv+ +l+f +++  + g+d+ iiPG++P+s ++   + a ++++ iP
+  gi|84028093|sp|P0AEZ1.1|METF_ECOLI 161 --SAQADLLNLKRKVDAGANRAITQFFFDVESYLRFRDRCVSA-GIDVEIIPGILPVSNFKQAKKFADMTNVRIP 232
+                                         ..7899***********************************99.******************************* PP
+
+                      MET12.hit_seqs 240 qeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvki 294
+                                           + + +d + dd e+ k +G ++ +++++ +l+ + vk++hfytln       i
+  gi|84028093|sp|P0AEZ1.1|METF_ECOLI 233 AWMAQMFDGLDDDAETRKLVGANIAMDMVK-ILSREGVKDFHFYTLNRAEMSYAI 286
+                                         ****************************95.677788**********76655555 PP
+
+>> gi|81784704|sp|Q9JZQ3.1|METF_NEIMB  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  192.5   0.0   1.9e-59   2.5e-55      17     292 ..      22     282 ..       7     291 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 192.5 bits;  conditional E-value: 1.9e-59
+                      MET12.hit_seqs  17 ffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctnmekel 91 
+                                          +s+eff+Pk eq    l d ++r++ l+P f+ +t+ga     +++  +v+  +++ gle++ hlt  + + + 
+  gi|81784704|sp|Q9JZQ3.1|METF_NEIMB  22 NVSFEFFPPKNEQMETMLWDSIHRLQTLHPKFVSVTYGANSGERDRTHGIVKRIKQETGLEAAPHLTGIDASPDE 96 
+                                         68************************************************************************* PP
+
+                      MET12.hit_seqs  92 iddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeedaseq 166
+                                         + +  +   ++Gi+ i+alrGd P + ek +p    f ya dlvk +++     f+i vaayPe h+e +     
+  gi|81784704|sp|Q9JZQ3.1|METF_NEIMB  97 LRQIAKDYWDSGIRRIVALRGDEPAGYEK-KP----F-YAEDLVKLLRSVA--DFDISVAAYPEVHPEAK----- 158
+                                         **************************999.44....4.9********9975..5**************99..... PP
+
+                      MET12.hit_seqs 167 dvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseisiPqe 241
+                                           + dl  lk k+daGa+ +itq+f+dv+++l+f +++    g+d+ i+PG++P++ ++ + + a++++++iP  
+  gi|81784704|sp|Q9JZQ3.1|METF_NEIMB 159 SAQADLINLKRKIDAGANHVITQFFFDVERYLRFRDRCVML-GIDVEIVPGILPVTNFKQLGKMAQVTNVKIPSW 232
+                                         7899**********************************988.*******************************87 PP
+
+                      MET12.hit_seqs 242 ildrldpvkdddeavke.lGvelvseliqklldsgkvkglhfytlnlekavv 292
+                                         +++  + + ddd+  ++ +   + +++++ +l+ + vk++hfytln    + 
+  gi|81784704|sp|Q9JZQ3.1|METF_NEIMB 233 LSQMYEGL-DDDQGTRNlVAASIAIDMVK-VLSREGVKDFHFYTLNRSELTY 282
+                                         76666665.6666666615788999**96.566677**********655444 PP
+
+>> gi|20141497|sp|P11003.2|METF_SALTY  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  189.2   0.0   1.9e-58   2.6e-54      15     294 ..      22     286 ..       7     294 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 189.2 bits;  conditional E-value: 1.9e-58
+                      MET12.hit_seqs  15 ekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctnmek 89 
+                                         +  +s+eff+P+t++  + l + +dr+++lkP f+ +t+ga     +++  +++  ++  gle++ hltc +  +
+  gi|20141497|sp|P11003.2|METF_SALTY  22 QINVSFEFFPPRTSEMEQTLWNSIDRLSSLKPKFVSVTYGANSGERDRTHSVIKGIKERTGLEAAPHLTCIDATR 96 
+                                         5679*********************************************************************99 PP
+
+                      MET12.hit_seqs  90 eliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeedas 164
+                                         + +        + Gi+ i+alrGd P ++ k e       ya+dlv  +ke     f+i vaayPe h+e +   
+  gi|20141497|sp|P11003.2|METF_SALTY  97 DELRTIARDYWNNGIRHIVALRGDLPPGSGKPE------MYAADLVGLLKEVA--DFDISVAAYPEVHPEAK--- 160
+                                         9999999999**************999998833......5*********9975..5**************99... PP
+
+                      MET12.hit_seqs 165 eqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseisiP 239
+                                             + dl  lk kvdaGa+  itq+f+dv+ +l+f +++  + g+d+ iiPG++P+s ++   + a ++++ iP
+  gi|20141497|sp|P11003.2|METF_SALTY 161 --SAQADLLNLKRKVDAGANRAITQFFFDVESYLRFRDRCVSA-GIDVEIIPGILPVSNFKQAKKFADMTNVRIP 232
+                                         ..7899***********************************99.******************************* PP
+
+                      MET12.hit_seqs 240 qeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvki 294
+                                           ++  ++ + +d e+ k +G ++ +++++ +l+ + vk++hfytln       i
+  gi|20141497|sp|P11003.2|METF_SALTY 233 SWMSLMFEGLDNDAETRKLVGANIAMDMVK-ILSREGVKDFHFYTLNRAEMSYAI 286
+                                         ****************************95.677788**********76655555 PP
+
+>> gi|11133458|sp|P57154.1|METF_BUCAI  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  188.1   0.9   4.1e-58   5.4e-54      15     294 ..      22     286 ..       8     292 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 188.1 bits;  conditional E-value: 4.1e-58
+                      MET12.hit_seqs  15 ekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctnmek 89 
+                                         +   s+eff+Pk +   +nl   ++r++ lkP f  +t+ga     ek+ d v++  ++ g+ t+ hltc +   
+  gi|11133458|sp|P57154.1|METF_BUCAI  22 NIQCSFEFFPPKNSFLEENLWSTVNRLSLLKPKFFSVTYGANTGEREKTYDTVQKIYKKTGIITAAHLTCIDSTP 96 
+                                         5568*******************************************************************9999 PP
+
+                      MET12.hit_seqs  90 eliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeedas 164
+                                         + + +   +  ++Gi+ i+alrGd  l++++ +       ya+dlv  +k+     f+i vaayPe h+e +   
+  gi|11133458|sp|P57154.1|METF_BUCAI  97 HKLKEIAYNYWNSGIKSIVALRGDT-LEKDYRH-----TMYAVDLVLLLKKIA--DFDISVAAYPELHPESK--- 160
+                                         9999999999**************7.4555533.....47******9998764..5*************998... PP
+
+                      MET12.hit_seqs 165 eqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseisiP 239
+                                           +vk d+  lk+kvdaGa   itq+f++++ +l+f +++ ++  ++i iiPG++P+  ++ + r + +++++iP
+  gi|11133458|sp|P57154.1|METF_BUCAI 161 --NVKSDILNLKKKVDAGASRAITQFFFNIESYLRFRDNCIKN-KINIDIIPGILPVCNFQKLKRFSSMTNVKIP 232
+                                         ..9************************************9998.9****************************** PP
+
+                      MET12.hit_seqs 240 qeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvki 294
+                                         + +ld ++ + dd  + k +G  + +++++kl   + vk++hfytln    + +i
+  gi|11133458|sp|P57154.1|METF_BUCAI 233 KWMLDMFNGLDDDIFTQKIIGSSIAIDMVKKLSC-EGVKNFHFYTLNQSDITYSI 286
+                                         *******************************975.569*********77665555 PP
+
+>> gi|1170934|sp|P45208.1|METF_HAEIN  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  185.8   0.0   2.1e-57   2.8e-53      14     294 ..      19     284 ..       5     291 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 185.8 bits;  conditional E-value: 2.1e-57
+                     MET12.hit_seqs  14 dekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctnmek 89 
+                                        ++  +s+eff+Pk e+    l d ++r++ lkP f+ +t+ga     +++  +v+  +++ gle++ hlt  +   
+  gi|1170934|sp|P45208.1|METF_HAEIN  19 KKINVSFEFFPPKNEKMETLLWDSIHRLKVLKPKFVSVTYGANSGERDRTHGIVKAIKQETGLEAAPHLTGIDATP 94 
+                                        35679*********************************************************************** PP
+
+                     MET12.hit_seqs  90 eliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeedase 165
+                                        e + +      ++Gi+ i+alrGd P++  k      +f ya dlv  +++     f+i vaayPe h+e +    
+  gi|1170934|sp|P45208.1|METF_HAEIN  95 EELKQIARDYWDSGIRRIVALRGDEPKGYAK-----KPF-YASDLVELLRSVA--DFDISVAAYPEVHPEAK---- 158
+                                        *9************************99877.....345.9********9975..5**************99.... PP
+
+                     MET12.hit_seqs 166 qdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseisiPqe 241
+                                           + dl  lk k+daGa+ +itq+f+d++++l+f +++  + g+d  i+PG++P++ ++ +++ a +++++iP  
+  gi|1170934|sp|P45208.1|METF_HAEIN 159 -SAQADLINLKRKIDAGANHVITQFFFDIENYLRFRDRCASI-GIDTEIVPGILPVTNFKQLQKMASFTNVKIPAW 232
+                                        .7899**********************************998.********************************* PP
+
+                     MET12.hit_seqs 242 ildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvki 294
+                                        ++++ d + +d ++   +   + +++++ +l+ + v+++hfytln    +  i
+  gi|1170934|sp|P45208.1|METF_HAEIN 233 LVKAYDGLDNDPTTRNLVAASVAMDMVK-ILSREGVNDFHFYTLNRSELTYAI 284
+                                        *******988777777778899999995.777788**********76665555 PP
+
+>> gi|38258065|sp|Q89B13.1|METF_BUCBP  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  180.8   0.8     7e-56   9.3e-52      14     296 ..      21     292 ..       7     295 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 180.8 bits;  conditional E-value: 7e-56
+                      MET12.hit_seqs  14 dekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGG.rtseksldlvataqstlgletclhltctnm 87 
+                                         ++  +s+eff+P      +nl + +d+++ l+P f  +t g+     ++ + ++v++ ++  g+et+ hltc n 
+  gi|38258065|sp|Q89B13.1|METF_BUCBP  21 EKVNISFEFFPPNNILSEKNLWQVIDKLKLLTPKFFSVTHGTNSkIRATCTSNIVKKIKKYTGIETVPHLTCINS 95 
+                                         46789************************************9994468999************************ PP
+
+                      MET12.hit_seqs  88 ekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveeed 162
+                                          +e +    ++  ++Gi+ ilalrGd   ++ k      +  ya+dl+k +k+    +f+i vaayPe h+e   
+  gi|38258065|sp|Q89B13.1|METF_BUCBP  96 TEEELKVIAKTYWDSGIRHILALRGDIFNTNCK------PKIYAVDLIKLLKSI--ANFEISVAAYPEVHPEAV- 161
+                                         9999999999999************97554433......456*********986..67**************99. PP
+
+                      MET12.hit_seqs 163 aseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklseis 237
+                                             + k d+  lk kv+aGa+  itq+f+++d fl+f +++ ++  + i i+PG+ Pis ++ +l+ + +s++s
+  gi|38258065|sp|Q89B13.1|METF_BUCBP 162 ----NAKYDIINLKRKVEAGATRAITQFFFNIDCFLRFRDLCVKN-NITIDIVPGIFPISNFKQLLKFSSVSNVS 231
+                                         ....999**********************************9999.999************************** PP
+
+                      MET12.hit_seqs 238 iPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlek...avvkile 296
+                                         iP+ +   ++ + +d ++ + +G  + +++++ l+ s+ ++ +hfytln      a+ kile
+  gi|38258065|sp|Q89B13.1|METF_BUCBP 232 IPKWLCCMFHGLDNDLNTSRIIGSSIAIDMVKVLY-SEGIRSFHFYTLNKSEisfAICKILE 292
+                                         *******************************7666.677**********6542225556665 PP
+
+>> gi|25008738|sp|Q8KA62.1|METF_BUCAP  RecName: Full=5,10-methylenetetrahydrofolate reductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  177.0   0.7   9.3e-55   1.3e-50      12     294 ..      19     286 ..       9     291 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 177.0 bits;  conditional E-value: 9.3e-55
+                      MET12.hit_seqs  12 kadekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataqstlgletclhltctn 86 
+                                          +d+   s+eff+Pk  +  + l+  + +++ lkP +  +t+ga     +k+  +v+   ++ g++t+ hltc +
+  gi|25008738|sp|Q8KA62.1|METF_BUCAP  19 LNDKIQCSFEFFPPKNLDTEKKLFSSVVKLSLLKPFLFSVTYGANSGERKKTYSIVQRIHKKTGITTAPHLTCVD 93 
+                                         3678889******************************************************************** PP
+
+                      MET12.hit_seqs  87 mekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikekygdkfaiGvaayPeghveee 161
+                                          + + + +  +   + Gi+ i+alrGd P ++ + +       ya dlv  +k+     f+i vaayPe h+e +
+  gi|25008738|sp|Q8KA62.1|METF_BUCAP  94 ASLSELKEIAKFYWENGIRSIVALRGDVPNKSYQHKI------YALDLVVLLKKIA--DFDISVAAYPEIHPESK 160
+                                         *****************************98877555......******9998764..5*************998 PP
+
+                      MET12.hit_seqs 162 daseqdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkdipiiPGlmPistyaaflraaklsei 236
+                                              + + d+  lk+k daGa+  itq+f++v+ +l+f +++ ++  ++i iiPG++Pi  +  + + + ++++
+  gi|25008738|sp|Q8KA62.1|METF_BUCAP 161 -----NAQSDILNLKKKADAGANRAITQFFFNVESYLRFRDNCIKN-NINIEIIPGILPIYNFEQLKKFSSMTNV 229
+                                         .....999***********************************999.9*************************** PP
+
+                      MET12.hit_seqs 237 siPqeildrldpvkdddeavkelGvelvseliqklldsgkvkglhfytlnlekavvki 294
+                                         siP+ + + ++ + +d e+ k +G ++v+++++ ll +g vk++hfytln    + +i
+  gi|25008738|sp|Q8KA62.1|METF_BUCAP 230 SIPKWMFEMFNGLDEDLETQKIIGSNIVINIVKTLLYEG-VKNFHFYTLNKSDVIYSI 286
+                                         **********************************99876.9*********77666555 PP
+
+>> gi|81668783|sp|O06745.1|YITJ_BACSU  RecName: Full=Bifunctional homocysteine S-methyltransferase/5,10-methylenetetrahy
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   0.0   1.7e-13   2.3e-09      68     267 ..     369     569 ..     353     580 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 40.7 bits;  conditional E-value: 1.7e-13
+                      MET12.hit_seqs  68 ataqstlgletclhltctnmekeliddalekafkaGiqnilalrGdPPldeekwepaegdfkyakdlvkyikeky 142
+                                         a ++++l++   +h+tc + ++  ++  l    + G++++la+ GdP +  +   +++     + dl++ ik+  
+  gi|81668783|sp|O06745.1|YITJ_BACSU 369 ALVKQQLDMRSLVHITCRDRNIIGLQSHLMGLDTLGLNDVLAITGDPSKIGDFPGATSVYDLTSFDLIRLIKQFN 443
+                                         556788******************************************99998666555556789******9744 PP
+
+                      MET12.hit_seqs 143 gdkfaiGvaayPeghvee...edase...qdvkkdleylkekvdaGadfiitqlfydvdkflefekklreklgkd 211
+                                          +   + +++ P g+  +    +a +   +  +k ++ l +k+d Gad+ + q  y  +++++ +++ ++    +
+  gi|81668783|sp|O06745.1|YITJ_BACSU 444 -EG--LSLSGKPLGKKTNfsvAAAFNpnvRHLDKAVKRLEKKIDCGADYFVSQPVYSEQQLVDIHNETKHL---K 512
+                                         .43..3456777766544111334341115567899****************************9999887...8 PP
+
+                      MET12.hit_seqs 212 ipiiPGlmPistyaaflraaklseisiP.....qeildrldpvkdddeavkelGvelvsel 267
+                                          pi  G+mP+++     r+a++ + +iP     + i +++    +d e+ k+ G  +   l
+  gi|81668783|sp|O06745.1|YITJ_BACSU 513 TPIYIGIMPLTS----SRNAEFIHNEIPgiklsDTIREKMAHAGEDKEKQKAEGLAIARSL 569
+                                         9*********98....466666666666211115566666666677777777777776655 PP
+
+>> gi|62901003|sp|Q7NBY7.1|RUVX_MYCGA  RecName: Full=Putative Holliday junction resolvase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.4   3.1e-05      0.41     126     197 ..      72     140 ..      61     142 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 3.1e-05
+                      MET12.hit_seqs 126 gdfkyakdlvkyikekygdkfaiGvaayPeghveeedaseqdvkkdleylkekvdaGadfiitqlfydvdkf 197
+                                         +  +   +++  +k +y ++  i   +y    +++      d + + +  kek+d  a f+i q f+d+d++
+  gi|62901003|sp|Q7NBY7.1|RUVX_MYCGA  72 STTEMVENFIELLKANYKNEVIIYDESYTSIIADQL---LIDNQIKAKKRKEKIDKLAAFVILQSFFDDDRY 140
+                                         445566788999999999998888888877777776...77889999999*******************986 PP
+
+>> gi|123493531|sp|Q2GH48.1|RL29_EHRCR  RecName: Full=50S ribosomal protein L29
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.5   3.3e-05      0.45     251     305 ..       9      64 ..       1      67 [] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 3.3e-05
+                       MET12.hit_seqs 251 dddeavkelGvelvseliqklldsg.kvkglhfytlnlekavvkilerlnlleqes 305
+                                          + + +++el v+l  el++ +l+ +   +  hfy  n+ k ++++l  ln  ++e+
+  gi|123493531|sp|Q2GH48.1|RL29_EHRCR   9 KSNDELRELLVNLGKELVNAVLNRKvDKSTNHFYCRNIKKDIARVLTVLNERRKEE 64 
+                                          4455789**************9955145678***************9888666555 PP
+
+>> gi|74582952|sp|O94627.1|RNH2B_SCHPO  RecName: Full=Ribonuclease H2 subunit B; Short=RNase H2 subunit B; Short=Rnh2B; 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.2   7.1e-05      0.95     269     330 ..     214     275 ..     150     288 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 7.1e-05
+                       MET12.hit_seqs 269 qklld.sgkvkglhfytlnlekavvkilerlnlleqeseesseeasgstaeelPerkslkrrr 330
+                                          +kl   ++++  lh yt nle +   ++e+  ll++++  + ++  +s+  + P+rk+ +++ 
+  gi|74582952|sp|O94627.1|RNH2B_SCHPO 214 NKLAYwQEELAPLHAYTKNLEESRKILVEKEALLNSKKRPQNSD-ITSSLLKKPNRKQATKKS 275
+                                          555444677889***********************999988777.555667788887665554 PP
+
+>> gi|125947|sp|P01846.1|LAC_PIG  RecName: Full=Ig lambda chain C region
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   6.4e-05      0.85      20      67 ..       8      55 ..       2      73 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 6.4e-05
+                 MET12.hit_seqs 20 leffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlv 67
+                                   ++ f+P  e+   n    +  ++++ P  +++tW aGG+t ++  + +
+  gi|125947|sp|P01846.1|LAC_PIG  8 VNLFPPSSEELGTNKATLVCLISDFYPGAVTVTWKAGGTTVTQGVETT 55
+                                   56799998888888888888999****************998877765 PP
+
+>> gi|61228153|sp|P0A5K2.1|MMPS4_MYCTU  RecName: Full=Putative membrane protein mmpS4; AltName: Full=PGB14T-X
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.0   7.3e-05      0.98     374     455 ..      27     110 ..      24     133 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 7.3e-05
+                       MET12.hit_seqs 374 GrfGdsrsPafGeidgygsslrqspakalelWglPksiadlkkllinyleGklk..vlPWsdlplsdetalike 445
+                                          G fG  + P++ + ++  s+  ++++ ++e++g P ++ad++   +n    +++  vlPWs +  +++ a++ +
+  gi|61228153|sp|P0A5K2.1|MMPS4_MYCTU  27 GFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGTVADISYFDVNSEPQRVDgaVLPWSLHITTNDAAVMGN 100
+                                          78****************************************999998766554339****9999999998888 PP
+
+                       MET12.hit_seqs 446 ellelnqkgi 455
+                                           + + n+ +i
+  gi|61228153|sp|P0A5K2.1|MMPS4_MYCTU 101 IVAQGNSDSI 110
+                                          8878777766 PP
+
+>> gi|123944|sp|P15814.1|IGLL1_HUMAN  RecName: Full=Immunoglobulin lambda-like polypeptide 1; AltName: Full=CD179 antige
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   9.1e-05       1.2      15      71 ..     111     167 ..     101     182 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 9.1e-05
+                     MET12.hit_seqs  15 ekffsleffvPkteqGvrnlldrldrmaalkPlfiditWgaGGrtseksldlvataq 71 
+                                        +++ s+  f+P  e+  +n    +  m ++ P  +++tW a G+  ++  ++++ ++
+  gi|123944|sp|P15814.1|IGLL1_HUMAN 111 KATPSVTLFPPSSEELQANKATLVCLMNDFYPGILTVTWKADGTPITQGVEMTTPSK 167
+                                        6788999*************************************9999999987554 PP
+
+>> gi|2496097|sp|Q58064.1|PFDA2_METJA  RecName: Full=Prefoldin subunit alpha 2; AltName: Full=GimC subunit alpha 2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.3     7e-05      0.93     237     319 ..      56     142 ..      15     147 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 7e-05
+                      MET12.hit_seqs 237 siPqeildrldp.vkdddeavkelGvelvsel.iqklld..sgkvkglhfytlnlekavvkilerlnlleqesee 307
+                                          +P   + +++  v++ d+ v ++G ++ +el  ++ l+  + ++k+l  + l le+a++++  + + l +e ++
+  gi|2496097|sp|Q58064.1|PFDA2_METJA  56 LVPVGSIAQVEMkVEKMDKVVVSVGQNISAELeYEEALKyiEDEIKKLLTFRLVLEQAIAELYAKIEDLIAEAQQ 130
+                                         5677777788766999***************944556666799**********************9877777777 PP
+
+                      MET12.hit_seqs 308 sseeasgstaee 319
+                                         +see  +++ e+
+  gi|2496097|sp|Q58064.1|PFDA2_METJA 131 TSEEEKAEEEEN 142
+                                         777756555443 PP
+
+>> gi|123614828|sp|Q3YRL7.1|RL29_EHRCJ  RecName: Full=50S ribosomal protein L29
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.2   9.6e-05       1.3     254     304 ..      12      63 ..       1      67 [] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 9.6e-05
+                       MET12.hit_seqs 254 eavkelGvelvseliqklld.sgkvkglhfytlnlekavvkilerlnlleqe 304
+                                           +++el   l  el++ +l+     +g hfy +n+ + ++++l  ln  ++e
+  gi|123614828|sp|Q3YRL7.1|RL29_EHRCJ  12 DELRELLASLRKELVDAVLNrKIDKSGNHFYCVNIKRDIARVLTVLNERKKE 63 
+                                          5678888999999999999844456799***************988765554 PP
+
+>> gi|123378531|sp|Q1GBV3.1|GUAC_LACDA  RecName: Full=GMP reductase; AltName: Full=Guanosine 5'-monophosphate oxidoreduc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0   0.00032       4.2     123     164 ..     124     166 ..     116     174 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00032
+                       MET12.hit_seqs 123 paegdfkyakdlvkyikekygdkf.aiGvaayPeghveeedas 164
+                                           a+g+  y  d++kyikek  d f + G  a Pe+  e e+a 
+  gi|123378531|sp|Q1GBV3.1|GUAC_LACDA 124 VAHGHSVYVIDMIKYIKEKMPDTFlTAGNVATPEAVRELENAG 166
+                                          566777899*************994579999****99998654 PP
+
+>> gi|122275786|sp|Q04CB0.1|GUAC_LACDB  RecName: Full=GMP reductase; AltName: Full=Guanosine 5'-monophosphate oxidoreduc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0   0.00032       4.2     123     164 ..     124     166 ..     116     174 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00032
+                       MET12.hit_seqs 123 paegdfkyakdlvkyikekygdkf.aiGvaayPeghveeedas 164
+                                           a+g+  y  d++kyikek  d f + G  a Pe+  e e+a 
+  gi|122275786|sp|Q04CB0.1|GUAC_LACDB 124 VAHGHSVYVIDMIKYIKEKMPDTFlTAGNVATPEAVRELENAG 166
+                                          566777899*************994579999****99998654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (613 nodes)
+Target sequences:                     455146  (169739043 residues searched)
+Passed MSV filter:                     12475  (0.0274088); expected 9102.9 (0.02)
+Passed bias filter:                     8183  (0.0179788); expected 9102.9 (0.02)
+Passed Vit filter:                       602  (0.00132265); expected 455.1 (0.001)
+Passed Fwd filter:                        34  (7.47013e-05); expected 4.6 (1e-05)
+Initial search space (Z):             455146  [actual number of targets]
+Domain search space  (domZ):              34  [number of targets reported over threshold]
+# CPU time: 10.95u 0.35s 00:00:11.30 Elapsed: 00:00:04.62
+# Mc/sec: 22520.95
+//
+[ok]
